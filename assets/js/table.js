@@ -9,37 +9,51 @@ document.addEventListener('DOMContentLoaded', function() {
 
 /**
  * Interazioni con le celle della tabella + Accessibilità
+ * Usa event delegation per migliori performance
  */
 function initTableInteractions() {
     const cells = document.querySelectorAll('.kana-cell:not(.empty)');
 
+    // Setup ARIA labels per accessibilità
     cells.forEach(cell => {
-        // ARIA labels per accessibilità
         const kana = cell.querySelector('.kana')?.textContent || '';
         const romaji = cell.querySelector('.romaji')?.textContent || '';
         cell.setAttribute('role', 'button');
         cell.setAttribute('aria-label', `Carattere ${kana} pronunciato ${romaji}`);
         cell.setAttribute('tabindex', '0');
+    });
 
-        // Effetto hover migliorato
-        cell.addEventListener('mouseenter', function() {
-            highlightRelated(this);
-        });
+    // Event delegation sulla tabella per performance
+    const table = document.querySelector('.unified-kana-table, .kana-table');
+    if (!table) return;
 
-        cell.addEventListener('mouseleave', function() {
+    // Hover con event delegation
+    table.addEventListener('mouseover', function(e) {
+        const cell = e.target.closest('.kana-cell:not(.empty)');
+        if (cell) {
+            highlightRelated(cell);
+        }
+    });
+
+    table.addEventListener('mouseout', function(e) {
+        const cell = e.target.closest('.kana-cell:not(.empty)');
+        if (cell) {
             clearHighlights();
-        });
+        }
+    });
 
-        // Click con feedback
-        const link = cell.querySelector('a');
+    // Click con feedback - event delegation
+    table.addEventListener('click', function(e) {
+        const link = e.target.closest('.kana-cell a');
         if (link) {
-            link.addEventListener('click', function(e) {
+            const cell = link.closest('.kana-cell');
+            if (cell) {
                 // Animazione di click
                 cell.style.transform = 'scale(0.95)';
                 setTimeout(() => {
                     cell.style.transform = '';
                 }, 100);
-            });
+            }
         }
     });
 }
