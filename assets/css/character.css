@@ -1,0 +1,742 @@
+/* ===================================
+   STILE PAGINE CARATTERE INDIVIDUALI
+   =================================== */
+
+.character-page {
+    background: linear-gradient(135deg, #fff5f8 0%, #f0f8ff 100%);
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* === SFONDO DECORATIVO === */
+.bg-pattern {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.05;
+    background-image:
+        repeating-linear-gradient(45deg, #c41e3a 0, #c41e3a 1px, transparent 0, transparent 50%),
+        repeating-linear-gradient(-45deg, #c41e3a 0, #c41e3a 1px, transparent 0, transparent 50%);
+    background-size: 20px 20px;
+}
+
+/* === HEADER CARATTERE === */
+.char-header {
+    background: linear-gradient(135deg, #c41e3a 0%, #8b0000 100%);
+    color: white;
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.char-nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.current-char {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.nav-prev,
+.nav-next {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.nav-prev:hover,
+.nav-next:hover {
+    background: white;
+    color: #c41e3a;
+    border-color: white;
+}
+
+/* === CONTENUTO PRINCIPALE === */
+.char-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.char-content > section {
+    background: white;
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+.char-content h2 {
+    color: #c41e3a;
+    margin-bottom: 1.5rem;
+    font-size: 2em;
+    border-left: 5px solid #c41e3a;
+    padding-left: 1rem;
+}
+
+/* === HERO CARATTERE === */
+.hero-char {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.char-display {
+    text-align: center;
+}
+
+.main-kana {
+    font-size: clamp(8em, 15vw, 12em);
+    color: #c41e3a;
+    line-height: 1;
+    margin-bottom: 1rem;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.1);
+}
+
+.char-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.char-info p {
+    font-size: 1.3em;
+    color: #666;
+}
+
+.romaji {
+    font-style: italic;
+    font-weight: 600;
+}
+
+.ipa {
+    color: #88b04b;
+    font-family: 'Courier New', monospace;
+}
+
+.unicode {
+    font-size: 1em !important;
+    color: #999;
+}
+
+/* === ORDINE TRATTI === */
+.stroke-container {
+    text-align: center;
+}
+
+.stroke-placeholder,
+.stroke-diagram {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    border-radius: 15px;
+    padding: 1rem;
+    border: 2px solid #eee;
+}
+
+.stroke-count {
+    font-size: 1.2em;
+    color: #c41e3a;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.stroke-note {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #fff8dc;
+    border-radius: 10px;
+    border-left: 4px solid #d4af37;
+    text-align: left;
+}
+
+/* === PRONUNCIA === */
+.audio-container {
+    margin: 1.5rem 0;
+}
+
+.audio-placeholder {
+    background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.audio-icon {
+    font-size: 4em;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.file-note {
+    color: #999;
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+.phonetic-guide {
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    background: #e6f3ff;
+    border-radius: 10px;
+    border-left: 4px solid #87ceeb;
+}
+
+.phonetic-guide h3 {
+    color: #1a5490;
+    margin-bottom: 1rem;
+}
+
+.phonetic-guide ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.phonetic-guide li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.phonetic-guide li::before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    color: #87ceeb;
+}
+
+/* === MNEMONICO === */
+.mnemonic-card {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 2rem;
+    align-items: start;
+}
+
+.mnemonic-visual {
+    text-align: center;
+}
+
+.mnemonic-placeholder {
+    background: linear-gradient(135deg, #ffb7c5 0%, #ffd1dc 100%);
+    padding: 2rem;
+    border-radius: 15px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-kana {
+    font-size: 6em;
+    font-weight: 700;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.imagination {
+    margin-top: 1rem;
+    font-size: 1.1em;
+    color: white;
+    font-weight: 500;
+}
+
+.mnemonic-text h3 {
+    color: #c41e3a;
+    margin-bottom: 1rem;
+}
+
+.hint {
+    background: #fff8dc;
+    padding: 1rem;
+    border-radius: 10px;
+    border-left: 4px solid #d4af37;
+    margin-bottom: 1rem;
+}
+
+.mnemonic-text ul {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+}
+
+.mnemonic-text li {
+    margin: 0.8rem 0;
+    line-height: 1.6;
+}
+
+.memory-tip {
+    background: #e6f3ff;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+/* === STORIA === */
+.etymology {
+    margin-bottom: 2rem;
+}
+
+.evolution-chain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 2rem;
+    background: linear-gradient(135deg, #f9f9f9 0%, #f0f0f0 100%);
+    border-radius: 15px;
+}
+
+.evo-step {
+    text-align: center;
+    padding: 1rem;
+}
+
+.evo-char {
+    display: block;
+    font-size: 4em;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.kanji-style {
+    color: #2c3e50;
+}
+
+.cursive-style {
+    color: #7f8c8d;
+    font-style: italic;
+}
+
+.modern-style {
+    color: #c41e3a;
+}
+
+.evo-label {
+    font-weight: 600;
+    color: #555;
+    margin: 0.5rem 0;
+}
+
+.evo-meaning {
+    font-size: 0.9em;
+    color: #999;
+}
+
+.arrow {
+    font-size: 2em;
+    color: #c41e3a;
+}
+
+.historical-context {
+    margin-top: 2rem;
+}
+
+.timeline-item {
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    background: #f9f9f9;
+    border-radius: 10px;
+    border-left: 4px solid #c41e3a;
+}
+
+.period {
+    display: block;
+    font-weight: 700;
+    color: #c41e3a;
+    margin-bottom: 0.5rem;
+}
+
+.cultural-highlight {
+    background: #fff8dc;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    border: 2px dashed #d4af37;
+}
+
+/* === CONTESTO CULTURALE === */
+.words-section h3 {
+    color: #c41e3a;
+    margin-bottom: 1.5rem;
+    font-size: 1.5em;
+}
+
+.words-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.word-card {
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #f9f9f9 0%, #f0f0f0 100%);
+    border-radius: 12px;
+    border: 2px solid #eee;
+    transition: all 0.3s ease;
+}
+
+.word-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    border-color: #ffb7c5;
+}
+
+.word-card.highlight {
+    background: linear-gradient(135deg, #fff8dc 0%, #ffefd5 100%);
+    border-color: #d4af37;
+}
+
+.word-jp {
+    display: block;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #c41e3a;
+    margin-bottom: 0.5rem;
+}
+
+.word-romaji {
+    display: block;
+    font-size: 1.1em;
+    color: #666;
+    font-style: italic;
+    margin-bottom: 0.3rem;
+}
+
+.word-meaning {
+    display: block;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.8rem;
+}
+
+.word-note {
+    font-size: 0.9em;
+    color: #777;
+    line-height: 1.6;
+}
+
+.cross-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #c41e3a;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.cross-link:hover {
+    text-decoration: underline;
+}
+
+/* === POESIA === */
+.poetry-section {
+    margin-top: 3rem;
+}
+
+.classical-poem {
+    background: linear-gradient(135deg, #f9f9f9 0%, #f5f5f5 100%);
+    padding: 2rem;
+    border-radius: 15px;
+    border-left: 5px solid #c41e3a;
+    margin: 1.5rem 0;
+}
+
+.poem-jp {
+    font-size: 1.8em;
+    font-weight: 500;
+    color: #2c3e50;
+    margin: 0.5rem 0;
+    text-align: center;
+}
+
+.poem-romaji {
+    font-style: italic;
+    color: #666;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.poem-translation {
+    color: #555;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.classical-poem cite {
+    display: block;
+    text-align: right;
+    color: #999;
+    margin-top: 1rem;
+}
+
+.poem-context {
+    padding: 1.5rem;
+    background: #e6f3ff;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+/* === PRATICA === */
+.study-method {
+    background: #fff8dc;
+    padding: 2rem;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+}
+
+.study-steps {
+    list-style: none;
+    padding: 0;
+}
+
+.study-steps li {
+    padding: 1rem;
+    margin: 1rem 0;
+    background: white;
+    border-radius: 10px;
+    border-left: 4px solid #c41e3a;
+}
+
+.practice-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.practice-card {
+    padding: 2rem;
+    background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+    border-radius: 15px;
+}
+
+.practice-card h4 {
+    color: #c41e3a;
+    margin-bottom: 1rem;
+}
+
+.quiz-options {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.quiz-btn {
+    font-size: 2.5em;
+    padding: 1rem 2rem;
+    background: white;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.quiz-btn:hover {
+    background: #ffb7c5;
+    border-color: #c41e3a;
+    transform: scale(1.1);
+}
+
+.trace-area {
+    margin-top: 1rem;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 10px;
+}
+
+.trace-guide {
+    font-size: 2em;
+    color: #ddd;
+    letter-spacing: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.trace-space {
+    font-size: 1.5em;
+    letter-spacing: 0.3rem;
+    color: #999;
+}
+
+/* === COLLEGAMENTI INCROCIATI === */
+.ref-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.ref-card {
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #f9f9f9 0%, #f0f0f0 100%);
+    border-radius: 12px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 2px solid #eee;
+}
+
+.ref-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    border-color: #ffb7c5;
+}
+
+.ref-char {
+    display: block;
+    font-size: 3.5em;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #c41e3a;
+}
+
+.ref-label {
+    display: block;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.ref-desc {
+    display: block;
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* === TEI === */
+.tei-section {
+    background: #f5f5f5;
+}
+
+.tei-section summary {
+    cursor: pointer;
+    padding: 1rem;
+    background: #e8e8e8;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #333;
+}
+
+.tei-section summary:hover {
+    background: #ddd;
+}
+
+.tei-code {
+    background: #2c3e50;
+    color: #ecf0f1;
+    padding: 1.5rem;
+    border-radius: 10px;
+    overflow-x: auto;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9em;
+    line-height: 1.6;
+    margin-top: 1rem;
+}
+
+.tei-note {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #e6f3ff;
+    border-radius: 10px;
+    color: #555;
+}
+
+/* === FOOTER === */
+.char-footer {
+    background: linear-gradient(135deg, #2c3e50 0%, #1a1a1a 100%);
+    color: white;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.bottom-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    background: rgba(255,255,255,0.1);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.bottom-nav a:hover {
+    background: #c41e3a;
+}
+
+.footer-credit {
+    text-align: center;
+    color: #aaa;
+    font-size: 0.9em;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+    .char-header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .char-nav {
+        gap: 1rem;
+    }
+
+    .current-char {
+        font-size: 2em;
+    }
+
+    .hero-char,
+    .mnemonic-card {
+        grid-template-columns: 1fr;
+    }
+
+    .main-kana {
+        font-size: 6em;
+    }
+
+    .words-grid,
+    .practice-grid,
+    .ref-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .evolution-chain {
+        flex-direction: column;
+    }
+
+    .arrow {
+        transform: rotate(90deg);
+    }
+
+    .bottom-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+}

@@ -1,0 +1,52 @@
+=====================================
+TODO - ALFABETO GIAPPONESE INTERATTIVO
+=====================================
+
+📋 TASK DA COMPLETARE:
+
+[ ] 1. AUDIO PRONUNCIA
+    - Registrare/trovare 41 file audio per i caratteri (escluse le 5 vocali: a, i, u, e, o)
+    - Formato: MP3
+    - Posizione: assets/audio/
+    - Nomi file: ka.mp3, ki.mp3, ku.mp3, ke.mp3, ko.mp3, sa.mp3, shi.mp3, su.mp3, se.mp3, so.mp3,
+                 ta.mp3, chi.mp3, tsu.mp3, te.mp3, to.mp3, na.mp3, ni.mp3, nu.mp3, ne.mp3, no.mp3,
+                 ha.mp3, hi.mp3, fu.mp3, he.mp3, ho.mp3, ma.mp3, mi.mp3, mu.mp3, me.mp3, mo.mp3,
+                 ya.mp3, yu.mp3, yo.mp3, ra.mp3, ri.mp3, ru.mp3, re.mp3, ro.mp3, wa.mp3, wo.mp3, n.mp3
+    - Priorità: MEDIA (le vocali non servono perché identiche all'italiano)
+
+[ ] 2. GIF ANIMATE STROKE ORDER
+    - Trovare/creare GIF animate per l'ordine dei tratti
+    - Posizione: assets/images/stroke-order/
+    - Nomi file: a.gif, i.gif, u.gif, e.gif, o.gif, ka.gif, ki.gif, etc. (92 file totali: 46 hiragana + 46 katakana)
+    - Priorità: BASSA (placeholder già presente)
+
+[ ] 3. PAGINE DIDATTICHE RIMANENTI
+    - Creare pagine per i restanti 45 caratteri hiragana (template: hiragana/a.html)
+    - Creare pagine per tutti i 46 caratteri katakana
+    - Totale: 91 pagine da creare
+    - Priorità: MEDIA
+
+[ ] 4. IMMAGINI CULTURALI
+    - Aggiungere immagini di contesto culturale nelle pagine didattiche
+    - Posizione: assets/images/cultural/
+    - Priorità: BASSA
+
+[ ] 5. FILE TEI
+    - Creare file XML-TEI per metadati di ogni carattere
+    - Posizione: tei/
+    - Priorità: MEDIA (per scopi accademici Digital Humanities)
+
+[ ] 6. DOCUMENTAZIONE
+    - Creare bibliografia.html con fonti
+    - Creare metodologia.html con spiegazione del progetto
+    - Priorità: ALTA (richiesta esame)
+
+=====================================
+NOTE:
+- Il sito è funzionante con la tabella unificata Hiragana/Katakana
+- La pagina esempio (hiragana/a.html) è completa e può essere usata come template
+- JavaScript interattivo già implementato
+
+⚠️ REVISIONI DA VALUTARE:
+- Sezione "Tecnica Mnemonica" (hiragana/a.html righe 73-99): da rivedere, non so se metterla o meno, probabilmente non serve
+=====================================
