@@ -45,7 +45,7 @@ function initTableInteractions() {
     // Click con feedback - event delegation
     table.addEventListener('click', function(e) {
         const link = e.target.closest('.kana-cell a');
-        if (link) {
+        if (link && !link.classList.contains('is-disabled')) {
             const cell = link.closest('.kana-cell');
             if (cell) {
                 // Animazione di click
@@ -96,7 +96,7 @@ function clearHighlights() {
  */
 function initKeyboardNavigation() {
     let currentIndex = 0;
-    const cells = Array.from(document.querySelectorAll('.kana-cell:not(.empty) a'));
+    const cells = Array.from(document.querySelectorAll('.kana-cell:not(.empty) a:not(.is-disabled)'));
 
     // Debounced focus per performance
     const debouncedFocus = debounce(focusCell, 100);

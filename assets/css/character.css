@@ -6,6 +6,7 @@
     background: linear-gradient(135deg, #fff5f8 0%, #f0f8ff 100%);
     position: relative;
     overflow-x: hidden;
+    font-size: 95%;
 }
 
 /* === SFONDO DECORATIVO === */
@@ -101,7 +102,7 @@
 }
 
 .main-kana {
-    font-size: clamp(8em, 15vw, 12em);
+    font-size: clamp(7em, 13vw, 10.5em);
     color: #c41e3a;
     line-height: 1;
     margin-bottom: 1rem;
@@ -215,7 +216,7 @@
 }
 
 .phonetic-guide li::before {
-    content: "▸";
+    content: ">";
     position: absolute;
     left: 0;
     color: #87ceeb;

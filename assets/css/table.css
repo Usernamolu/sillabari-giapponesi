@@ -145,6 +145,18 @@
     gap: 0.3rem;
 }
 
+.kana-cell a.is-disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+.kana-cell a.is-disabled .kana,
+.kana-cell a.is-disabled .romaji,
+.kana-cell a.is-disabled .ita,
+.kana-cell a.is-disabled .note {
+    opacity: 0.5;
+}
+
 .kana {
     font-size: 1.95em;
     font-weight: 700;
