@@ -9,7 +9,7 @@ Prototipo per il corso di Digital Humanities: collezione digitale dedicata allo 
 
 ## Pagine
 - `index.html`
-- `hiragana/index.html`
+- `hiragana/index.html` (tabella Hiragana)
 - `metodologia.html`
 - `bibliografia.html`
 
