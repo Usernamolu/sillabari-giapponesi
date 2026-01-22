@@ -48,12 +48,10 @@ body {
 .main-header.unified {
     background: linear-gradient(135deg, #c41e3a 0%, #8b0000 100%);
     color: white;
-    padding: 3rem 2rem;
+    padding: 1.2rem 1.5rem 1.4rem;
     text-align: center;
     box-shadow: var(--shadow-lg);
-    position: sticky;
-    top: 0;
-    z-index: 100;
+    position: static;
 }
 
 .unified-title {
@@ -61,11 +59,11 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0.9rem;
 }
 
 .unified-title .jp-text {
-    font-size: clamp(3rem, 7vw, 5rem);
+    font-size: clamp(1.9rem, 5vw, 3.6rem);
     font-weight: 700;
     letter-spacing: 0.1em;
     text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
@@ -78,22 +76,18 @@ body {
 }
 
 .unified-title .subtitle {
-    font-size: clamp(1.2rem, 3vw, 1.8rem);
+    font-size: clamp(1rem, 2.2vw, 1.4rem);
     font-weight: 300;
     opacity: 0.95;
     letter-spacing: 0.05em;
 }
 
-/* Layout alternativo orizzontale per schermi larghi */
+/* Mantieni titolo e sottotitolo su righe separate anche su schermi larghi */
 @media (min-width: 768px) {
     .unified-title {
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         flex-wrap: wrap;
-    }
-
-    .unified-title .separator {
-        margin: 0 1rem;
     }
 }
 
@@ -127,11 +121,12 @@ body {
 .main-nav a {
     color: white;
     text-decoration: none;
-    padding: 0.6rem 1.5rem;
+    padding: 0.45rem 1.1rem;
     border: 2px solid white;
     border-radius: 25px;
     transition: all var(--transition-normal);
     font-weight: 500;
+    font-size: 0.95rem;
 }
 
 .main-nav a:hover {
@@ -139,6 +134,14 @@ body {
     color: var(--red-jp);
     transform: translateY(-3px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.header-note {
+    max-width: 900px;
+    margin: 0 auto 0.9rem;
+    font-size: 0.98rem;
+    line-height: 1.6;
+    opacity: 0.9;
 }
 
 /* === HERO SECTION === */
@@ -281,13 +284,13 @@ body {
 .btn-explore {
     display: inline-block;
     margin-top: 1.5rem;
-    padding: 0.9rem 2.5rem;
+    padding: 0.55rem 1.6rem;
     background: var(--red-jp);
     color: white;
     text-decoration: none;
     border-radius: 30px;
     font-weight: 600;
-    font-size: 1.05em;
+    font-size: 0.9rem;
     transition: all var(--transition-normal);
     box-shadow: var(--shadow-sm);
 }
@@ -296,6 +299,12 @@ body {
     background: #8b0000;
     transform: scale(1.05);
     box-shadow: var(--shadow-md);
+}
+
+.header-links {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0.4rem;
 }
 
 /* === UNIFIED TABLE === */
@@ -307,13 +316,17 @@ body {
 
 .table-intro {
     text-align: center;
-    margin-bottom: 2rem;
+    margin: 1.5rem 0 2rem;
 }
 
 .table-intro h2 {
-    font-size: clamp(2rem, 4vw, 2.8em);
+    font-size: clamp(1.6rem, 3.2vw, 2.2rem);
     color: var(--red-jp);
     margin-bottom: 0.5rem;
+}
+
+.table-intro p {
+    font-size: 0.95rem;
 }
 
 .table-intro strong {
@@ -324,12 +337,40 @@ body {
     background-clip: text;
 }
 
+.vowel-seq {
+    display: inline-block;
+    transition: transform var(--transition-fast);
+}
+
+.vowel-seq:hover {
+    transform: translateY(-4px);
+}
+
 .legend {
-    background: white;
-    padding: 1.5rem;
-    border-radius: 15px;
-    box-shadow: var(--shadow-sm);
-    margin-bottom: 2rem;
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 1.5rem;
+}
+
+.legend-text {
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+.legend-hiragana {
+    color: var(--red-jp);
+}
+
+.legend-romaji {
+    color: #000;
+    font-style: italic;
+}
+
+.legend-ita {
+    color: var(--green-matcha);
 }
 
 .legend-grid {
@@ -369,6 +410,13 @@ body {
     color: #999;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+}
+
+.hover-tip {
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+    border-left: none;
 }
 
 .table-wrapper {
