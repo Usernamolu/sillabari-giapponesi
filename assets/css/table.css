@@ -8,69 +8,6 @@
     padding: 1.5rem;
 }
 
-/* === LEGENDA === */
-.legend {
-    background: transparent;
-    padding: 0;
-    border-radius: 0;
-    box-shadow: none;
-    margin-bottom: 1.5rem;
-}
-
-.legend-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 2rem;
-    margin-bottom: 1.5rem;
-}
-
-.legend-item {
-    text-align: center;
-}
-
-.legend-item span {
-    display: block;
-}
-
-.kana-demo,
-.romaji-demo,
-.ita-demo {
-    font-size: 2.5em;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-}
-
-.kana-demo {
-    color: #c41e3a;
-}
-
-.romaji-demo {
-    color: #666;
-    font-style: italic;
-}
-
-.ita-demo {
-    color: #88b04b;
-}
-
-.label {
-    font-size: 0.9em;
-    color: #999;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-}
-
-.hover-tip {
-    text-align: center;
-    color: #666;
-    font-size: 1em;
-    padding: 0;
-    background: transparent;
-    border-radius: 0;
-    border-left: none;
-}
-
-/* === TABELLA === */
 .table-wrapper {
     overflow-x: auto;
     background: white;
@@ -152,8 +89,7 @@
 
 .kana-cell a.is-disabled .kana,
 .kana-cell a.is-disabled .romaji,
-.kana-cell a.is-disabled .ita,
-.kana-cell a.is-disabled .note {
+.kana-cell a.is-disabled .ita {
     opacity: 0.5;
 }
 
@@ -189,59 +125,6 @@
     opacity: 1;
 }
 
-.note {
-    font-size: 0.7em;
-    color: #999;
-    position: absolute;
-    bottom: 5px;
-    right: 5px;
-    background: rgba(255,255,255,0.9);
-    padding: 2px 6px;
-    border-radius: 4px;
-}
-
-/* === NOTE FONETICHE === */
-.phonetic-notes {
-    background: white;
-    padding: 2rem;
-    border-radius: 15px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    margin-bottom: 2rem;
-}
-
-.phonetic-notes h3 {
-    color: #c41e3a;
-    margin-bottom: 1.5rem;
-    font-size: 1.5em;
-}
-
-.notes-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1rem;
-}
-
-.note-card {
-    padding: 1rem;
-    background: linear-gradient(135deg, #f9f9f9 0%, #f0f0f0 100%);
-    border-radius: 10px;
-    border-left: 4px solid #c41e3a;
-    transition: all 0.3s ease;
-}
-
-.note-card:hover {
-    transform: translateX(5px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-.note-card strong {
-    color: #c41e3a;
-    font-size: 1.3em;
-    display: block;
-    margin-bottom: 0.5rem;
-}
-
-/* === DOWNLOAD SECTION === */
 .download-section {
     text-align: left;
     padding: 1rem 0;
@@ -264,7 +147,6 @@
     color: #8b0000;
 }
 
-/* === RESPONSIVE === */
 @media (max-width: 768px) {
     .table-container {
         padding: 1rem;
@@ -287,20 +169,9 @@
     .ita {
         font-size: 0.85em;
     }
-
-    .legend-grid {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
-
-    .notes-grid {
-        grid-template-columns: 1fr;
-    }
 }
 
 @media print {
-    .legend,
-    .phonetic-notes,
     .download-section,
     footer {
         display: none;
