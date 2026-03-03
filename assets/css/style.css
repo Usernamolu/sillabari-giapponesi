@@ -1,9 +1,3 @@
-/* ===================================
-   ALFABETO GIAPPONESE INTERATTIVO
-   Progetto Digital Humanities
-   Gabriele Errico - UniPV 2025-2026
-   =================================== */
-
 :root {
     --red-jp: #c41e3a;
     --white-jp: #ffffff;
@@ -15,9 +9,9 @@
     --purple-wisteria: #9d8cc1;
 
     --font-main: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, sans-serif;
-    --shadow-sm: 0 2px 8px rgba(0,0,0,0.1);
-    --shadow-md: 0 4px 12px rgba(0,0,0,0.15);
-    --shadow-lg: 0 8px 24px rgba(0,0,0,0.2);
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.15);
+    --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.2);
 
     --transition-fast: 0.2s ease;
     --transition-normal: 0.3s ease;
@@ -42,7 +36,7 @@ body {
     min-height: 100vh;
 }
 
-/* === HEADER UNIFICATO === */
+/* Header */
 .main-header.unified {
     background: linear-gradient(135deg, #c41e3a 0%, #8b0000 100%);
     color: white;
@@ -64,7 +58,7 @@ body {
     font-size: clamp(1.9rem, 5vw, 3.6rem);
     font-weight: 700;
     letter-spacing: 0.1em;
-    text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
 }
 
 .unified-title .subtitle {
@@ -108,7 +102,7 @@ body {
     box-shadow: var(--shadow-md);
 }
 
-/* === INTRO TABELLA === */
+/* Intro */
 .table-intro {
     text-align: center;
     margin: 1.5rem 0 2rem;
@@ -133,11 +127,7 @@ body {
     font-style: italic;
 }
 
-.legend-ita {
-    color: var(--green-matcha);
-}
-
-/* === FOOTER === */
+/* Footer */
 footer {
     background: linear-gradient(135deg, #2c3e50 0%, #1a1a1a 100%);
     color: white;
@@ -150,34 +140,11 @@ footer p {
     margin: 0.5rem 0;
 }
 
-/* === PAGE HEADER (pagine interne) === */
-.page-header {
-    background: linear-gradient(135deg, var(--red-jp) 0%, #8b0000 100%);
-    color: white;
-    padding: 1.5rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: var(--shadow-md);
-    flex-wrap: wrap;
-    gap: 1rem;
-}
 
-.page-header h1 {
-    font-size: clamp(1.5rem, 4vw, 2.5em);
-    flex-grow: 1;
-    text-align: center;
-}
-
-.page-header .subtitle {
-    flex-basis: 100%;
-    text-align: center;
-    font-size: 1em;
-}
 
 .back-btn {
     padding: 0.6rem 1.5rem;
-    background: rgba(255,255,255,0.2);
+    background: rgba(255, 255, 255, 0.2);
     color: white;
     text-decoration: none;
     border-radius: 20px;
@@ -191,20 +158,16 @@ footer p {
     color: var(--red-jp);
 }
 
-/* === RESPONSIVE === */
+/* Responsive */
 @media (max-width: 768px) {
     .main-header.unified {
         padding: 1.5rem 1rem;
     }
-
-    .page-header {
-        flex-direction: column;
-        text-align: center;
-    }
 }
 
-/* === RIDUZIONE MOVIMENTO === */
+/* Accessibilità */
 @media (prefers-reduced-motion: reduce) {
+
     *,
     *::before,
     *::after {

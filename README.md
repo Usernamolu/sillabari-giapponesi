@@ -5,13 +5,12 @@ Prototipo per il corso di Digital Humanities: collezione digitale dedicata allo 
 ## Contenuti
 - Tabella interattiva Hiragana
 - Pagine didattiche per i caratteri
-- Documentazione: metodologia e bibliografia
+- Documentazione: metodologia (bibliografia in preparazione)
 
 ## Pagine
-- `index.html`
-- `hiragana/index.html` (tabella Hiragana)
+- `index.html` (homepage + tabella Hiragana)
+- `hiragana/a.html` (template pagina carattere)
 - `metodologia.html`
-- `bibliografia.html`
 
 ## Stato
 Katakana accantonato (stub) per questa fase.

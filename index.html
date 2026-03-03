@@ -1,5 +1,6 @@
-﻿﻿<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,432 +9,395 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/table.css">
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LearningResource",
+      "name": "Hiragana Digital Collection",
+      "description": "Una risorsa interattiva web per l'apprendimento del sillabario Hiragana giapponese.",
+      "author": {
+        "@type": "Person",
+        "name": "Gabriele Errico"
+      },
+      "educationalLevel": "Beginner",
+      "inLanguage": ["it", "ja"]
+    }
+    </script>
 </head>
+
 <body>
     <header class="main-header unified">
         <div class="header-content">
             <h1 class="unified-title">
-                <span class="jp-text">日本語の文字</span>
-                <span class="subtitle">I Caratteri Giapponesi</span>
+                <span class="jp-text">Il sillabario: HIRAGANA</span>
             </h1>
             <p class="header-note">
                 Progetto per esame di Digital Humanities (UniPV, 2025-2026, Prof.ssa Erica Biagetti): focus Hiragana,
                 prototipo web didattico con tabella interattiva e pagine per carattere.
             </p>
-            <div class="header-links">
-                <a class="btn-explore" href="metodologia.html">Quadro metodologico e fonti</a>
-            </div>
         </div>
     </header>
 
     <main>
         <section class="table-intro" id="hiragana">
             <h2>Ordine delle vocali</h2>
-            <p>In giapponese l'ordine base e a-i-u-e-o (gojuon). La tabella sotto segue questo ordine per leggere righe e colonne in modo consistente.<br>Legenda: <span class="legend-hiragana">Hiragana</span>, <span class="legend-romaji">Romaji</span>, <span class="legend-ita">Pronuncia IT</span>. Clicca su un carattere per aprire la pagina didattica.</p>
+            <p>La tabella seguente segue l'ordine canonico giapponese delle vocali a-i-u-e-o (anche detto gojuon).
+                Clicca su un carattere per aprire la pagina didattica.</p>
         </section>
 
         <section class="table-container" id="tabella-hiragana"><!-- Tabella Hiragana -->
-        <div class="table-wrapper">
-            <table class="kana-table">
-                <thead>
-                    <tr>
-                        <th class="corner-cell"></th>
-                        <th>a</th>
-                        <th>i</th>
-                        <th>u</th>
-                        <th>e</th>
-                        <th>o</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <!-- Riga vocali -->
-                    <tr>
-                        <th class="row-label">∅</th>
-                        <td class="kana-cell">
-                            <a href="hiragana/a.html">
-                                <span class="kana">あ</span>
-                                <span class="romaji">a</span>
-                                <span class="ita">a</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">い</span>
-                                <span class="romaji">i</span>
-                                <span class="ita">i</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">う</span>
-                                <span class="romaji">u</span>
-                                <span class="ita">u</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">え</span>
-                                <span class="romaji">e</span>
-                                <span class="ita">e</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">お</span>
-                                <span class="romaji">o</span>
-                                <span class="ita">o</span>
-                            </a>
-                        </td>
-                    </tr>
+            <div class="table-wrapper">
+                <table class="kana-table">
+                    <thead>
+                        <tr>
+                            <th class="corner-cell"></th>
+                            <th>a</th>
+                            <th>i</th>
+                            <th>u</th>
+                            <th>e</th>
+                            <th>o</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Riga vocali -->
+                        <tr>
+                            <th class="row-label">∅</th>
+                            <td class="kana-cell">
+                                <a href="hiragana/a.html">
+                                    <span class="kana">あ</span>
+                                    <span class="romaji">a</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="hiragana/i.html">
+                                    <span class="kana">い</span>
+                                    <span class="romaji">i</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="hiragana/u.html">
+                                    <span class="kana">う</span>
+                                    <span class="romaji">u</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="hiragana/e.html">
+                                    <span class="kana">え</span>
+                                    <span class="romaji">e</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="hiragana/o.html">
+                                    <span class="kana">お</span>
+                                    <span class="romaji">o</span>
+                                </a>
+                            </td>
+                        </tr>
 
-                    <!-- Riga K -->
-                    <tr>
-                        <th class="row-label">k</th>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">か</span>
-                                <span class="romaji">ka</span>
-                                <span class="ita">ca</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">き</span>
-                                <span class="romaji">ki</span>
-                                <span class="ita">chi</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">く</span>
-                                <span class="romaji">ku</span>
-                                <span class="ita">cu</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">け</span>
-                                <span class="romaji">ke</span>
-                                <span class="ita">che</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">こ</span>
-                                <span class="romaji">ko</span>
-                                <span class="ita">co</span>
-                            </a>
-                        </td>
-                    </tr>
+                        <!-- Riga K -->
+                        <tr>
+                            <th class="row-label">k</th>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">か</span>
+                                    <span class="romaji">ka</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">き</span>
+                                    <span class="romaji">ki</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">く</span>
+                                    <span class="romaji">ku</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">け</span>
+                                    <span class="romaji">ke</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">こ</span>
+                                    <span class="romaji">ko</span>
+                                </a>
+                            </td>
+                        </tr>
 
-                    <!-- Riga S -->
-                    <tr>
-                        <th class="row-label">s</th>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">さ</span>
-                                <span class="romaji">sa</span>
-                                <span class="ita">sa</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">し</span>
-                                <span class="romaji">shi</span>
-                                <span class="ita">sci</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">す</span>
-                                <span class="romaji">su</span>
-                                <span class="ita">su</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">せ</span>
-                                <span class="romaji">se</span>
-                                <span class="ita">se</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">そ</span>
-                                <span class="romaji">so</span>
-                                <span class="ita">so</span>
-                            </a>
-                        </td>
-                    </tr>
+                        <!-- Riga S -->
+                        <tr>
+                            <th class="row-label">s</th>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">さ</span>
+                                    <span class="romaji">sa</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">し</span>
+                                    <span class="romaji">shi</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">す</span>
+                                    <span class="romaji">su</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">せ</span>
+                                    <span class="romaji">se</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">そ</span>
+                                    <span class="romaji">so</span>
+                                </a>
+                            </td>
+                        </tr>
 
-                    <!-- Riga T -->
-                    <tr>
-                        <th class="row-label">t</th>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">た</span>
-                                <span class="romaji">ta</span>
-                                <span class="ita">ta</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">ち</span>
-                                <span class="romaji">chi</span>
-                                <span class="ita">ci</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">つ</span>
-                                <span class="romaji">tsu</span>
-                                <span class="ita">tzu</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">て</span>
-                                <span class="romaji">te</span>
-                                <span class="ita">te</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">と</span>
-                                <span class="romaji">to</span>
-                                <span class="ita">to</span>
-                            </a>
-                        </td>
-                    </tr>
+                        <!-- Riga T -->
+                        <tr>
+                            <th class="row-label">t</th>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">た</span>
+                                    <span class="romaji">ta</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">ち</span>
+                                    <span class="romaji">chi</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">つ</span>
+                                    <span class="romaji">tsu</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">て</span>
+                                    <span class="romaji">te</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">と</span>
+                                    <span class="romaji">to</span>
+                                </a>
+                            </td>
+                        </tr>
 
-                    <!-- Riga N -->
-                    <tr>
-                        <th class="row-label">n</th>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">な</span>
-                                <span class="romaji">na</span>
-                                <span class="ita">na</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">に</span>
-                                <span class="romaji">ni</span>
-                                <span class="ita">ni</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">ぬ</span>
-                                <span class="romaji">nu</span>
-                                <span class="ita">nu</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">ね</span>
-                                <span class="romaji">ne</span>
-                                <span class="ita">ne</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">の</span>
-                                <span class="romaji">no</span>
-                                <span class="ita">no</span>
-                            </a>
-                        </td>
-                    </tr>
+                        <!-- Riga N -->
+                        <tr>
+                            <th class="row-label">n</th>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">な</span>
+                                    <span class="romaji">na</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">に</span>
+                                    <span class="romaji">ni</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">ぬ</span>
+                                    <span class="romaji">nu</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">ね</span>
+                                    <span class="romaji">ne</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">の</span>
+                                    <span class="romaji">no</span>
+                                </a>
+                            </td>
+                        </tr>
 
-                    <!-- Riga H -->
-                    <tr>
-                        <th class="row-label">h</th>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">は</span>
-                                <span class="romaji">ha</span>
-                                <span class="ita">ha</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">ひ</span>
-                                <span class="romaji">hi</span>
-                                <span class="ita">hi</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">ふ</span>
-                                <span class="romaji">fu</span>
-                                <span class="ita">fu</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">へ</span>
-                                <span class="romaji">he</span>
-                                <span class="ita">he</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">ほ</span>
-                                <span class="romaji">ho</span>
-                                <span class="ita">ho</span>
-                            </a>
-                        </td>
-                    </tr>
+                        <!-- Riga H -->
+                        <tr>
+                            <th class="row-label">h</th>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">は</span>
+                                    <span class="romaji">ha</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">ひ</span>
+                                    <span class="romaji">hi</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">ふ</span>
+                                    <span class="romaji">fu</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">へ</span>
+                                    <span class="romaji">he</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">ほ</span>
+                                    <span class="romaji">ho</span>
+                                </a>
+                            </td>
+                        </tr>
 
-                    <!-- Riga M -->
-                    <tr>
-                        <th class="row-label">m</th>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">ま</span>
-                                <span class="romaji">ma</span>
-                                <span class="ita">ma</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">み</span>
-                                <span class="romaji">mi</span>
-                                <span class="ita">mi</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">む</span>
-                                <span class="romaji">mu</span>
-                                <span class="ita">mu</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">め</span>
-                                <span class="romaji">me</span>
-                                <span class="ita">me</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">も</span>
-                                <span class="romaji">mo</span>
-                                <span class="ita">mo</span>
-                            </a>
-                        </td>
-                    </tr>
+                        <!-- Riga M -->
+                        <tr>
+                            <th class="row-label">m</th>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">ま</span>
+                                    <span class="romaji">ma</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">み</span>
+                                    <span class="romaji">mi</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">む</span>
+                                    <span class="romaji">mu</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">め</span>
+                                    <span class="romaji">me</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">も</span>
+                                    <span class="romaji">mo</span>
+                                </a>
+                            </td>
+                        </tr>
 
-                    <!-- Riga Y -->
-                    <tr>
-                        <th class="row-label">y</th>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">や</span>
-                                <span class="romaji">ya</span>
-                                <span class="ita">ia</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell empty"></td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">ゆ</span>
-                                <span class="romaji">yu</span>
-                                <span class="ita">iu</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell empty"></td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">よ</span>
-                                <span class="romaji">yo</span>
-                                <span class="ita">io</span>
-                            </a>
-                        </td>
-                    </tr>
+                        <!-- Riga Y -->
+                        <tr>
+                            <th class="row-label">y</th>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">や</span>
+                                    <span class="romaji">ya</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell empty"></td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">ゆ</span>
+                                    <span class="romaji">yu</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell empty"></td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">よ</span>
+                                    <span class="romaji">yo</span>
+                                </a>
+                            </td>
+                        </tr>
 
-                    <!-- Riga R -->
-                    <tr>
-                        <th class="row-label">r</th>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">ら</span>
-                                <span class="romaji">ra</span>
-                                <span class="ita">ra</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">り</span>
-                                <span class="romaji">ri</span>
-                                <span class="ita">ri</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">る</span>
-                                <span class="romaji">ru</span>
-                                <span class="ita">ru</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">れ</span>
-                                <span class="romaji">re</span>
-                                <span class="ita">re</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">ろ</span>
-                                <span class="romaji">ro</span>
-                                <span class="ita">ro</span>
-                            </a>
-                        </td>
-                    </tr>
+                        <!-- Riga R -->
+                        <tr>
+                            <th class="row-label">r</th>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">ら</span>
+                                    <span class="romaji">ra</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">り</span>
+                                    <span class="romaji">ri</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">る</span>
+                                    <span class="romaji">ru</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">れ</span>
+                                    <span class="romaji">re</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">ろ</span>
+                                    <span class="romaji">ro</span>
+                                </a>
+                            </td>
+                        </tr>
 
-                    <!-- Riga W + N -->
-                    <tr>
-                        <th class="row-label">w/n</th>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">わ</span>
-                                <span class="romaji">wa</span>
-                                <span class="ita">ua</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">ん</span>
-                                <span class="romaji">n</span>
-                                <span class="ita">n</span>
-                            </a>
-                        </td>
-                        <td class="kana-cell empty"></td>
-                        <td class="kana-cell empty"></td>
-                        <td class="kana-cell">
-                            <a href="#" class="is-disabled" aria-disabled="true" tabindex="-1">
-                                <span class="kana">を</span>
-                                <span class="romaji">wo</span>
-                                <span class="ita">o</span>
-                            </a>
-                        </td>
-                    </tr>
+                        <!-- Riga W + N -->
+                        <tr>
+                            <th class="row-label">w/n</th>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">わ</span>
+                                    <span class="romaji">wa</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">ん</span>
+                                    <span class="romaji">n</span>
+                                </a>
+                            </td>
+                            <td class="kana-cell empty"></td>
+                            <td class="kana-cell empty"></td>
+                            <td class="kana-cell">
+                                <a href="#" class="is-disabled">
+                                    <span class="kana">を</span>
+                                    <span class="romaji">wo</span>
+                                </a>
+                            </td>
+                        </tr>
 
-                </tbody>
-            </table>
-        </div>
-
-
-        <!-- Pulsante scarica tabella -->
-        <div class="download-section">
-            <button onclick="window.print()" class="btn-download">🖨️ Stampa Tabella</button>
-        </div>
+                    </tbody>
+                </table>
+            </div>
+            <!-- Pulsante scarica tabella -->
+            <div class="download-section">
+                <button onclick="window.print()" class="btn-download">Stampa tabella</button>
+            </div>
         </section>
-
-        <!-- About -->
     </main>
 
     <footer>
@@ -444,9 +408,5 @@
     <script src="assets/js/utilities.js"></script>
     <script src="assets/js/table.js"></script>
 </body>
+
 </html>
-
-
-
-
-

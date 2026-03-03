@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Hiragana Digital Collection: Metadati TEI</title>
+        <author>Gabriele Errico</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Progetto per l'esame di Digital Humanities - Università di Pavia</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Nato digitale (Born-digital resource)</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry>
+        <char xml:id="hiragana_a">
+          <charName>HIRAGANA LETTER A</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>a</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>ah</value>
+          </charProp>
+        </char>
+        <char xml:id="hiragana_i">
+          <charName>HIRAGANA LETTER I</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>i</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>ee</value>
+          </charProp>
+        </char>
+        <char xml:id="hiragana_u">
+          <charName>HIRAGANA LETTER U</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>u</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>oo</value>
+          </charProp>
+        </char>
+        <char xml:id="hiragana_e">
+          <charName>HIRAGANA LETTER E</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>e</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>eh</value>
+          </charProp>
+        </char>
+        <char xml:id="hiragana_o">
+          <charName>HIRAGANA LETTER O</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>o</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>oh</value>
+          </charProp>
+        </char>
+      </entry>
+    </body>
+  </text>
+</TEI>
