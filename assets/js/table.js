@@ -11,34 +11,36 @@ document.addEventListener('DOMContentLoaded', function () {
  * Interazioni con le celle della tabella
  */
 function initTableInteractions() {
-    const table = document.querySelector('.unified-kana-table, .kana-table');
-    if (!table) return;
+    const tables = document.querySelectorAll('.unified-kana-table, .kana-table');
+    if (!tables.length) return;
 
-    table.addEventListener('mouseover', function (e) {
-        const cell = e.target.closest('.kana-cell:not(.empty)');
-        if (cell) {
-            highlightRelated(cell);
-        }
-    });
-
-    table.addEventListener('mouseout', function (e) {
-        const cell = e.target.closest('.kana-cell:not(.empty)');
-        if (cell) {
-            clearHighlights();
-        }
-    });
-
-    table.addEventListener('click', function (e) {
-        const link = e.target.closest('.kana-cell a');
-        if (link && !link.classList.contains('is-disabled')) {
-            const cell = link.closest('.kana-cell');
+    tables.forEach(table => {
+        table.addEventListener('mouseover', function (e) {
+            const cell = e.target.closest('.kana-cell:not(.empty)');
             if (cell) {
-                cell.style.transform = 'scale(0.95)';
-                setTimeout(() => {
-                    cell.style.transform = '';
-                }, 100);
+                highlightRelated(cell);
             }
-        }
+        });
+
+        table.addEventListener('mouseout', function (e) {
+            const cell = e.target.closest('.kana-cell:not(.empty)');
+            if (cell) {
+                clearHighlights();
+            }
+        });
+
+        table.addEventListener('click', function (e) {
+            const link = e.target.closest('.kana-cell a');
+            if (link && !link.classList.contains('is-disabled')) {
+                const cell = link.closest('.kana-cell');
+                if (cell) {
+                    cell.style.transform = 'scale(0.95)';
+                    setTimeout(() => {
+                        cell.style.transform = '';
+                    }, 100);
+                }
+            }
+        });
     });
 }
 
@@ -137,4 +139,5 @@ StyleManager.inject('table-highlights', `
         background: rgba(135, 206, 235, 0.2) !important;
     }
 `);
+
 

@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Katakana Digital Collection: Metadati TEI</title>
+        <author>Gabriele Errico</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Progetto per l'esame di Digital Humanities - Universita di Pavia</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Nato digitale (Born-digital resource)</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry>
+        <char xml:id="katakana_a">
+          <charName>KATAKANA LETTER A</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>a</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_i">
+          <charName>KATAKANA LETTER I</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>i</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_u">
+          <charName>KATAKANA LETTER U</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>u</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_e">
+          <charName>KATAKANA LETTER E</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>e</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_o">
+          <charName>KATAKANA LETTER O</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>o</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_ka">
+          <charName>KATAKANA LETTER KA</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>ka</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_ki">
+          <charName>KATAKANA LETTER KI</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>ki</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_ku">
+          <charName>KATAKANA LETTER KU</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>ku</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_ke">
+          <charName>KATAKANA LETTER KE</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>ke</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_ko">
+          <charName>KATAKANA LETTER KO</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>ko</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_sa">
+          <charName>KATAKANA LETTER SA</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>sa</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_shi">
+          <charName>KATAKANA LETTER SHI</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>shi</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_su">
+          <charName>KATAKANA LETTER SU</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>su</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_se">
+          <charName>KATAKANA LETTER SE</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>se</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_so">
+          <charName>KATAKANA LETTER SO</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>so</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_ta">
+          <charName>KATAKANA LETTER TA</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>ta</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_chi">
+          <charName>KATAKANA LETTER CHI</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>chi</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_tsu">
+          <charName>KATAKANA LETTER TSU</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>tsu</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_te">
+          <charName>KATAKANA LETTER TE</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>te</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_to">
+          <charName>KATAKANA LETTER TO</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>to</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_na">
+          <charName>KATAKANA LETTER NA</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>na</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_ni">
+          <charName>KATAKANA LETTER NI</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>ni</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_nu">
+          <charName>KATAKANA LETTER NU</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>nu</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_ne">
+          <charName>KATAKANA LETTER NE</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>ne</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_no">
+          <charName>KATAKANA LETTER NO</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>no</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_ha">
+          <charName>KATAKANA LETTER HA</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>ha</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_hi">
+          <charName>KATAKANA LETTER HI</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>hi</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_fu">
+          <charName>KATAKANA LETTER FU</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>fu</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_he">
+          <charName>KATAKANA LETTER HE</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>he</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_ho">
+          <charName>KATAKANA LETTER HO</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>ho</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_ma">
+          <charName>KATAKANA LETTER MA</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>ma</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_mi">
+          <charName>KATAKANA LETTER MI</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>mi</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_mu">
+          <charName>KATAKANA LETTER MU</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>mu</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_me">
+          <charName>KATAKANA LETTER ME</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>me</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_mo">
+          <charName>KATAKANA LETTER MO</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>mo</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_ya">
+          <charName>KATAKANA LETTER YA</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>ya</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_yu">
+          <charName>KATAKANA LETTER YU</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>yu</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_yo">
+          <charName>KATAKANA LETTER YO</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>yo</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_ra">
+          <charName>KATAKANA LETTER RA</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>ra</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_ri">
+          <charName>KATAKANA LETTER RI</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>ri</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_ru">
+          <charName>KATAKANA LETTER RU</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>ru</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_re">
+          <charName>KATAKANA LETTER RE</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>re</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_ro">
+          <charName>KATAKANA LETTER RO</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>ro</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_wa">
+          <charName>KATAKANA LETTER WA</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>wa</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_n">
+          <charName>KATAKANA LETTER N</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>n</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+        <char xml:id="katakana_wo">
+          <charName>KATAKANA LETTER WO</charName>
+          <charProp>
+            <localName>romaji</localName>
+            <value>wo</value>
+          </charProp>
+          <charProp>
+            <localName>pronunciation</localName>
+            <value>placeholder</value>
+          </charProp>
+        </char>
+      </entry>
+    </body>
+  </text>
+</TEI>

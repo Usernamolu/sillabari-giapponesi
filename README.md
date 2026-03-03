@@ -1,31 +1,33 @@
-# Alfabeto Giapponese - Hiragana (DH Project)
+# Alfabeto Giapponese - Hiragana + Katakana (DH Project)
 
-Prototipo web didattico per il corso di Digital Humanities (UniPV, 2025-2026), con focus sul sillabario Hiragana.
+Prototipo web didattico per il corso di Digital Humanities (UniPV, 2025-2026), con focus sui sillabari giapponesi.
 
 ## Stato del progetto
 Questo progetto e in divenire.
-Stiamo aggiungendo progressivamente tutti i contenuti mancanti (altre pagine carattere, ampliamento copertura, rifiniture didattiche).
 
 Al momento:
-- Tabella Hiragana presente in homepage.
-- Pagine didattiche attive per le vocali: `a`, `i`, `u`, `e`, `o`.
-- Metadati TEI disponibili in `metadata/hiragana.tei.xml`.
+- Tabelle Hiragana e Katakana presenti in homepage.
+- Pagine didattiche Hiragana complete (46/46).
+- Pagine Katakana complete come struttura tecnica (46/46) con contenuti placeholder in attesa delle slide.
+- Metadati TEI disponibili in `metadata/hiragana.tei.xml` e `metadata/katakana.tei.xml`.
 - Pagina `metodologia.html` disponibile come supporto.
 
 ## Cosa include oggi
-- Tabella `gojuon` interattiva (hover, click, navigazione da tastiera).
-- Pagine singolo carattere con contenuti didattici.
+- Tabelle `gojuon` interattive (hover, click, navigazione da tastiera).
+- Pagine singolo carattere per Hiragana e Katakana.
+- Cross-link Hiragana <-> Katakana.
 - Base CSS/JS modulare in `assets/`.
 - Metadati in formato TEI.
 
 ## Roadmap
 - [x] Homepage con tabella Hiragana (`gojuon`)
-- [x] Pagine vocali completate (`a`, `i`, `u`, `e`, `o`)
-- [x] Metadati TEI di base
-- [ ] Completare le pagine mancanti delle altre serie Hiragana
+- [x] Homepage con tabella Katakana (`gojuon`)
+- [x] Pagine Hiragana complete
+- [x] Pagine Katakana placeholder complete
+- [x] Metadati TEI (Hiragana + Katakana)
+- [ ] Sostituire i placeholder Katakana con contenuti da slide
 - [ ] Rafforzare bibliografia e riferimenti linguistici
-- [ ] Allineare/rimuovere link stub non ancora disponibili
-- [ ] Estensione a Katakana (fase successiva)
+- [ ] Rifiniture UX/UI e validazione finale contenuti
 
 ## Workflow locale (utente finale)
 Obiettivo: scaricare il progetto e farlo funzionare subito in locale, in modo stabile.
@@ -69,7 +71,7 @@ Pagina principale:
 ## Uso ottimale consigliato
 - Browser aggiornato (Chrome/Edge/Firefox).
 - Connessione internet attiva per il font Google (`Noto Sans JP`).
-- Mantieni invariata la struttura cartelle (`assets/`, `hiragana/`, `metadata/`) per non rompere i link relativi.
+- Mantieni invariata la struttura cartelle (`assets/`, `hiragana/`, `katakana/`, `metadata/`) per non rompere i link relativi.
 
 ## Struttura essenziale
 ```text
@@ -80,9 +82,12 @@ alfabeto-giapponese/
     css/
     js/
   hiragana/
-    a.html i.html u.html e.html o.html
+    ...46 pagine carattere...
+  katakana/
+    ...46 pagine carattere (placeholder)...
   metadata/
     hiragana.tei.xml
+    katakana.tei.xml
   Docs/
 ```
 
