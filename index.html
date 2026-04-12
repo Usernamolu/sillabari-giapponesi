@@ -27,6 +27,7 @@
 </head>
 
 <body>
+    <a href="#main-content" class="skip-link">Vai al contenuto principale</a>
     <header class="main-header unified">
         <div class="header-content">
             <h1 class="unified-title">
@@ -38,7 +39,7 @@
         </div>
     </header>
 
-    <main>
+    <main id="main-content">
         <section class="table-intro" id="hiragana">
             <h2>Ordine delle vocali</h2>
             <p>La tabella seguente segue l'ordine canonico giapponese delle vocali a-i-u-e-o (anche detto gojuon).
@@ -51,44 +52,44 @@
                     <thead>
                         <tr>
                             <th class="corner-cell"></th>
-                            <th>a</th>
-                            <th>i</th>
-                            <th>u</th>
-                            <th>e</th>
-                            <th>o</th>
+                            <th scope="col">a</th>
+                            <th scope="col">i</th>
+                            <th scope="col">u</th>
+                            <th scope="col">e</th>
+                            <th scope="col">o</th>
                         </tr>
                     </thead>
                     <tbody>
                         <!-- Riga vocali -->
                         <tr>
-                            <th class="row-label">∅</th>
+                            <th class="row-label" scope="row">∅</th>
                             <td class="kana-cell">
-                                <a href="hiragana/a.html">
-                                    <span class="kana">あ</span>
+                                <a href="hiragana/a.html" aria-label="Scheda didattica Hiragana あ (a)">
+                                    <span class="kana" lang="ja">あ</span>
                                     <span class="romaji">a</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/i.html">
-                                    <span class="kana">い</span>
+                                <a href="hiragana/i.html" aria-label="Scheda didattica Hiragana い (i)">
+                                    <span class="kana" lang="ja">い</span>
                                     <span class="romaji">i</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/u.html">
-                                    <span class="kana">う</span>
+                                <a href="hiragana/u.html" aria-label="Scheda didattica Hiragana う (u)">
+                                    <span class="kana" lang="ja">う</span>
                                     <span class="romaji">u</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/e.html">
-                                    <span class="kana">え</span>
+                                <a href="hiragana/e.html" aria-label="Scheda didattica Hiragana え (e)">
+                                    <span class="kana" lang="ja">え</span>
                                     <span class="romaji">e</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/o.html">
-                                    <span class="kana">お</span>
+                                <a href="hiragana/o.html" aria-label="Scheda didattica Hiragana お (o)">
+                                    <span class="kana" lang="ja">お</span>
                                     <span class="romaji">o</span>
                                 </a>
                             </td>
@@ -96,34 +97,34 @@
 
                         <!-- Riga K -->
                         <tr>
-                            <th class="row-label">k</th>
+                            <th class="row-label" scope="row">k</th>
                             <td class="kana-cell">
-                                <a href="hiragana/ka.html">
-                                    <span class="kana">か</span>
+                                <a href="hiragana/ka.html" aria-label="Scheda didattica Hiragana か (ka)">
+                                    <span class="kana" lang="ja">か</span>
                                     <span class="romaji">ka</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/ki.html">
-                                    <span class="kana">き</span>
+                                <a href="hiragana/ki.html" aria-label="Scheda didattica Hiragana き (ki)">
+                                    <span class="kana" lang="ja">き</span>
                                     <span class="romaji">ki</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/ku.html">
-                                    <span class="kana">く</span>
+                                <a href="hiragana/ku.html" aria-label="Scheda didattica Hiragana く (ku)">
+                                    <span class="kana" lang="ja">く</span>
                                     <span class="romaji">ku</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/ke.html">
-                                    <span class="kana">け</span>
+                                <a href="hiragana/ke.html" aria-label="Scheda didattica Hiragana け (ke)">
+                                    <span class="kana" lang="ja">け</span>
                                     <span class="romaji">ke</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/ko.html">
-                                    <span class="kana">こ</span>
+                                <a href="hiragana/ko.html" aria-label="Scheda didattica Hiragana こ (ko)">
+                                    <span class="kana" lang="ja">こ</span>
                                     <span class="romaji">ko</span>
                                 </a>
                             </td>
@@ -131,34 +132,34 @@
 
                         <!-- Riga S -->
                         <tr>
-                            <th class="row-label">s</th>
+                            <th class="row-label" scope="row">s</th>
                             <td class="kana-cell">
-                                <a href="hiragana/sa.html">
-                                    <span class="kana">さ</span>
+                                <a href="hiragana/sa.html" aria-label="Scheda didattica Hiragana さ (sa)">
+                                    <span class="kana" lang="ja">さ</span>
                                     <span class="romaji">sa</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/shi.html">
-                                    <span class="kana">し</span>
+                                <a href="hiragana/shi.html" aria-label="Scheda didattica Hiragana し (shi)">
+                                    <span class="kana" lang="ja">し</span>
                                     <span class="romaji">shi</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/su.html">
-                                    <span class="kana">す</span>
+                                <a href="hiragana/su.html" aria-label="Scheda didattica Hiragana す (su)">
+                                    <span class="kana" lang="ja">す</span>
                                     <span class="romaji">su</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/se.html">
-                                    <span class="kana">せ</span>
+                                <a href="hiragana/se.html" aria-label="Scheda didattica Hiragana せ (se)">
+                                    <span class="kana" lang="ja">せ</span>
                                     <span class="romaji">se</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/so.html">
-                                    <span class="kana">そ</span>
+                                <a href="hiragana/so.html" aria-label="Scheda didattica Hiragana そ (so)">
+                                    <span class="kana" lang="ja">そ</span>
                                     <span class="romaji">so</span>
                                 </a>
                             </td>
@@ -166,34 +167,34 @@
 
                         <!-- Riga T -->
                         <tr>
-                            <th class="row-label">t</th>
+                            <th class="row-label" scope="row">t</th>
                             <td class="kana-cell">
-                                <a href="hiragana/ta.html">
-                                    <span class="kana">た</span>
+                                <a href="hiragana/ta.html" aria-label="Scheda didattica Hiragana た (ta)">
+                                    <span class="kana" lang="ja">た</span>
                                     <span class="romaji">ta</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/chi.html">
-                                    <span class="kana">ち</span>
+                                <a href="hiragana/chi.html" aria-label="Scheda didattica Hiragana ち (chi)">
+                                    <span class="kana" lang="ja">ち</span>
                                     <span class="romaji">chi</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/tsu.html">
-                                    <span class="kana">つ</span>
+                                <a href="hiragana/tsu.html" aria-label="Scheda didattica Hiragana つ (tsu)">
+                                    <span class="kana" lang="ja">つ</span>
                                     <span class="romaji">tsu</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/te.html">
-                                    <span class="kana">て</span>
+                                <a href="hiragana/te.html" aria-label="Scheda didattica Hiragana て (te)">
+                                    <span class="kana" lang="ja">て</span>
                                     <span class="romaji">te</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/to.html">
-                                    <span class="kana">と</span>
+                                <a href="hiragana/to.html" aria-label="Scheda didattica Hiragana と (to)">
+                                    <span class="kana" lang="ja">と</span>
                                     <span class="romaji">to</span>
                                 </a>
                             </td>
@@ -201,34 +202,34 @@
 
                         <!-- Riga N -->
                         <tr>
-                            <th class="row-label">n</th>
+                            <th class="row-label" scope="row">n</th>
                             <td class="kana-cell">
-                                <a href="hiragana/na.html">
-                                    <span class="kana">な</span>
+                                <a href="hiragana/na.html" aria-label="Scheda didattica Hiragana な (na)">
+                                    <span class="kana" lang="ja">な</span>
                                     <span class="romaji">na</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/ni.html">
-                                    <span class="kana">に</span>
+                                <a href="hiragana/ni.html" aria-label="Scheda didattica Hiragana に (ni)">
+                                    <span class="kana" lang="ja">に</span>
                                     <span class="romaji">ni</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/nu.html">
-                                    <span class="kana">ぬ</span>
+                                <a href="hiragana/nu.html" aria-label="Scheda didattica Hiragana ぬ (nu)">
+                                    <span class="kana" lang="ja">ぬ</span>
                                     <span class="romaji">nu</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/ne.html">
-                                    <span class="kana">ね</span>
+                                <a href="hiragana/ne.html" aria-label="Scheda didattica Hiragana ね (ne)">
+                                    <span class="kana" lang="ja">ね</span>
                                     <span class="romaji">ne</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/no.html">
-                                    <span class="kana">の</span>
+                                <a href="hiragana/no.html" aria-label="Scheda didattica Hiragana の (no)">
+                                    <span class="kana" lang="ja">の</span>
                                     <span class="romaji">no</span>
                                 </a>
                             </td>
@@ -236,34 +237,34 @@
 
                         <!-- Riga H -->
                         <tr>
-                            <th class="row-label">h</th>
+                            <th class="row-label" scope="row">h</th>
                             <td class="kana-cell">
-                                <a href="hiragana/ha.html">
-                                    <span class="kana">は</span>
+                                <a href="hiragana/ha.html" aria-label="Scheda didattica Hiragana は (ha)">
+                                    <span class="kana" lang="ja">は</span>
                                     <span class="romaji">ha</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/hi.html">
-                                    <span class="kana">ひ</span>
+                                <a href="hiragana/hi.html" aria-label="Scheda didattica Hiragana ひ (hi)">
+                                    <span class="kana" lang="ja">ひ</span>
                                     <span class="romaji">hi</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/fu.html">
-                                    <span class="kana">ふ</span>
+                                <a href="hiragana/fu.html" aria-label="Scheda didattica Hiragana ふ (fu)">
+                                    <span class="kana" lang="ja">ふ</span>
                                     <span class="romaji">fu</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/he.html">
-                                    <span class="kana">へ</span>
+                                <a href="hiragana/he.html" aria-label="Scheda didattica Hiragana へ (he)">
+                                    <span class="kana" lang="ja">へ</span>
                                     <span class="romaji">he</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/ho.html">
-                                    <span class="kana">ほ</span>
+                                <a href="hiragana/ho.html" aria-label="Scheda didattica Hiragana ほ (ho)">
+                                    <span class="kana" lang="ja">ほ</span>
                                     <span class="romaji">ho</span>
                                 </a>
                             </td>
@@ -271,34 +272,34 @@
 
                         <!-- Riga M -->
                         <tr>
-                            <th class="row-label">m</th>
+                            <th class="row-label" scope="row">m</th>
                             <td class="kana-cell">
-                                <a href="hiragana/ma.html">
-                                    <span class="kana">ま</span>
+                                <a href="hiragana/ma.html" aria-label="Scheda didattica Hiragana ま (ma)">
+                                    <span class="kana" lang="ja">ま</span>
                                     <span class="romaji">ma</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/mi.html">
-                                    <span class="kana">み</span>
+                                <a href="hiragana/mi.html" aria-label="Scheda didattica Hiragana み (mi)">
+                                    <span class="kana" lang="ja">み</span>
                                     <span class="romaji">mi</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/mu.html">
-                                    <span class="kana">む</span>
+                                <a href="hiragana/mu.html" aria-label="Scheda didattica Hiragana む (mu)">
+                                    <span class="kana" lang="ja">む</span>
                                     <span class="romaji">mu</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/me.html">
-                                    <span class="kana">め</span>
+                                <a href="hiragana/me.html" aria-label="Scheda didattica Hiragana め (me)">
+                                    <span class="kana" lang="ja">め</span>
                                     <span class="romaji">me</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/mo.html">
-                                    <span class="kana">も</span>
+                                <a href="hiragana/mo.html" aria-label="Scheda didattica Hiragana も (mo)">
+                                    <span class="kana" lang="ja">も</span>
                                     <span class="romaji">mo</span>
                                 </a>
                             </td>
@@ -306,24 +307,24 @@
 
                         <!-- Riga Y -->
                         <tr>
-                            <th class="row-label">y</th>
+                            <th class="row-label" scope="row">y</th>
                             <td class="kana-cell">
-                                <a href="hiragana/ya.html">
-                                    <span class="kana">や</span>
+                                <a href="hiragana/ya.html" aria-label="Scheda didattica Hiragana や (ya)">
+                                    <span class="kana" lang="ja">や</span>
                                     <span class="romaji">ya</span>
                                 </a>
                             </td>
                             <td class="kana-cell empty"></td>
                             <td class="kana-cell">
-                                <a href="hiragana/yu.html">
-                                    <span class="kana">ゆ</span>
+                                <a href="hiragana/yu.html" aria-label="Scheda didattica Hiragana ゆ (yu)">
+                                    <span class="kana" lang="ja">ゆ</span>
                                     <span class="romaji">yu</span>
                                 </a>
                             </td>
                             <td class="kana-cell empty"></td>
                             <td class="kana-cell">
-                                <a href="hiragana/yo.html">
-                                    <span class="kana">よ</span>
+                                <a href="hiragana/yo.html" aria-label="Scheda didattica Hiragana よ (yo)">
+                                    <span class="kana" lang="ja">よ</span>
                                     <span class="romaji">yo</span>
                                 </a>
                             </td>
@@ -331,34 +332,34 @@
 
                         <!-- Riga R -->
                         <tr>
-                            <th class="row-label">r</th>
+                            <th class="row-label" scope="row">r</th>
                             <td class="kana-cell">
-                                <a href="hiragana/ra.html">
-                                    <span class="kana">ら</span>
+                                <a href="hiragana/ra.html" aria-label="Scheda didattica Hiragana ら (ra)">
+                                    <span class="kana" lang="ja">ら</span>
                                     <span class="romaji">ra</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/ri.html">
-                                    <span class="kana">り</span>
+                                <a href="hiragana/ri.html" aria-label="Scheda didattica Hiragana り (ri)">
+                                    <span class="kana" lang="ja">り</span>
                                     <span class="romaji">ri</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/ru.html">
-                                    <span class="kana">る</span>
+                                <a href="hiragana/ru.html" aria-label="Scheda didattica Hiragana る (ru)">
+                                    <span class="kana" lang="ja">る</span>
                                     <span class="romaji">ru</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/re.html">
-                                    <span class="kana">れ</span>
+                                <a href="hiragana/re.html" aria-label="Scheda didattica Hiragana れ (re)">
+                                    <span class="kana" lang="ja">れ</span>
                                     <span class="romaji">re</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/ro.html">
-                                    <span class="kana">ろ</span>
+                                <a href="hiragana/ro.html" aria-label="Scheda didattica Hiragana ろ (ro)">
+                                    <span class="kana" lang="ja">ろ</span>
                                     <span class="romaji">ro</span>
                                 </a>
                             </td>
@@ -366,24 +367,24 @@
 
                         <!-- Riga W + N -->
                         <tr>
-                            <th class="row-label">w/n</th>
+                            <th class="row-label" scope="row">w/n</th>
                             <td class="kana-cell">
-                                <a href="hiragana/wa.html">
-                                    <span class="kana">わ</span>
+                                <a href="hiragana/wa.html" aria-label="Scheda didattica Hiragana わ (wa)">
+                                    <span class="kana" lang="ja">わ</span>
                                     <span class="romaji">wa</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="hiragana/n.html">
-                                    <span class="kana">ん</span>
+                                <a href="hiragana/n.html" aria-label="Scheda didattica Hiragana ん (n)">
+                                    <span class="kana" lang="ja">ん</span>
                                     <span class="romaji">n</span>
                                 </a>
                             </td>
                             <td class="kana-cell empty"></td>
                             <td class="kana-cell empty"></td>
                             <td class="kana-cell">
-                                <a href="hiragana/wo.html">
-                                    <span class="kana">を</span>
+                                <a href="hiragana/wo.html" aria-label="Scheda didattica Hiragana を (wo)">
+                                    <span class="kana" lang="ja">を</span>
                                     <span class="romaji">wo</span>
                                 </a>
                             </td>
@@ -410,320 +411,320 @@
                     <thead>
                         <tr>
                             <th class="corner-cell"></th>
-                            <th>a</th>
-                            <th>i</th>
-                            <th>u</th>
-                            <th>e</th>
-                            <th>o</th>
+                            <th scope="col">a</th>
+                            <th scope="col">i</th>
+                            <th scope="col">u</th>
+                            <th scope="col">e</th>
+                            <th scope="col">o</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th class="row-label">∅</th>
+                            <th class="row-label" scope="row">∅</th>
                             <td class="kana-cell">
-                                <a href="katakana/a.html">
-                                    <span class="kana">ア</span>
+                                <a href="katakana/a.html" aria-label="Scheda didattica Katakana ア (a)">
+                                    <span class="kana" lang="ja">ア</span>
                                     <span class="romaji">a</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/i.html">
-                                    <span class="kana">イ</span>
+                                <a href="katakana/i.html" aria-label="Scheda didattica Katakana イ (i)">
+                                    <span class="kana" lang="ja">イ</span>
                                     <span class="romaji">i</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/u.html">
-                                    <span class="kana">ウ</span>
+                                <a href="katakana/u.html" aria-label="Scheda didattica Katakana ウ (u)">
+                                    <span class="kana" lang="ja">ウ</span>
                                     <span class="romaji">u</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/e.html">
-                                    <span class="kana">エ</span>
+                                <a href="katakana/e.html" aria-label="Scheda didattica Katakana エ (e)">
+                                    <span class="kana" lang="ja">エ</span>
                                     <span class="romaji">e</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/o.html">
-                                    <span class="kana">オ</span>
+                                <a href="katakana/o.html" aria-label="Scheda didattica Katakana オ (o)">
+                                    <span class="kana" lang="ja">オ</span>
                                     <span class="romaji">o</span>
                                 </a>
                             </td>
                         </tr>
                         <tr>
-                            <th class="row-label">k</th>
+                            <th class="row-label" scope="row">k</th>
                             <td class="kana-cell">
-                                <a href="katakana/ka.html">
-                                    <span class="kana">カ</span>
+                                <a href="katakana/ka.html" aria-label="Scheda didattica Katakana カ (ka)">
+                                    <span class="kana" lang="ja">カ</span>
                                     <span class="romaji">ka</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/ki.html">
-                                    <span class="kana">キ</span>
+                                <a href="katakana/ki.html" aria-label="Scheda didattica Katakana キ (ki)">
+                                    <span class="kana" lang="ja">キ</span>
                                     <span class="romaji">ki</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/ku.html">
-                                    <span class="kana">ク</span>
+                                <a href="katakana/ku.html" aria-label="Scheda didattica Katakana ク (ku)">
+                                    <span class="kana" lang="ja">ク</span>
                                     <span class="romaji">ku</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/ke.html">
-                                    <span class="kana">ケ</span>
+                                <a href="katakana/ke.html" aria-label="Scheda didattica Katakana ケ (ke)">
+                                    <span class="kana" lang="ja">ケ</span>
                                     <span class="romaji">ke</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/ko.html">
-                                    <span class="kana">コ</span>
+                                <a href="katakana/ko.html" aria-label="Scheda didattica Katakana コ (ko)">
+                                    <span class="kana" lang="ja">コ</span>
                                     <span class="romaji">ko</span>
                                 </a>
                             </td>
                         </tr>
                         <tr>
-                            <th class="row-label">s</th>
+                            <th class="row-label" scope="row">s</th>
                             <td class="kana-cell">
-                                <a href="katakana/sa.html">
-                                    <span class="kana">サ</span>
+                                <a href="katakana/sa.html" aria-label="Scheda didattica Katakana サ (sa)">
+                                    <span class="kana" lang="ja">サ</span>
                                     <span class="romaji">sa</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/shi.html">
-                                    <span class="kana">シ</span>
+                                <a href="katakana/shi.html" aria-label="Scheda didattica Katakana シ (shi)">
+                                    <span class="kana" lang="ja">シ</span>
                                     <span class="romaji">shi</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/su.html">
-                                    <span class="kana">ス</span>
+                                <a href="katakana/su.html" aria-label="Scheda didattica Katakana ス (su)">
+                                    <span class="kana" lang="ja">ス</span>
                                     <span class="romaji">su</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/se.html">
-                                    <span class="kana">セ</span>
+                                <a href="katakana/se.html" aria-label="Scheda didattica Katakana セ (se)">
+                                    <span class="kana" lang="ja">セ</span>
                                     <span class="romaji">se</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/so.html">
-                                    <span class="kana">ソ</span>
+                                <a href="katakana/so.html" aria-label="Scheda didattica Katakana ソ (so)">
+                                    <span class="kana" lang="ja">ソ</span>
                                     <span class="romaji">so</span>
                                 </a>
                             </td>
                         </tr>
                         <tr>
-                            <th class="row-label">t</th>
+                            <th class="row-label" scope="row">t</th>
                             <td class="kana-cell">
-                                <a href="katakana/ta.html">
-                                    <span class="kana">タ</span>
+                                <a href="katakana/ta.html" aria-label="Scheda didattica Katakana タ (ta)">
+                                    <span class="kana" lang="ja">タ</span>
                                     <span class="romaji">ta</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/chi.html">
-                                    <span class="kana">チ</span>
+                                <a href="katakana/chi.html" aria-label="Scheda didattica Katakana チ (chi)">
+                                    <span class="kana" lang="ja">チ</span>
                                     <span class="romaji">chi</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/tsu.html">
-                                    <span class="kana">ツ</span>
+                                <a href="katakana/tsu.html" aria-label="Scheda didattica Katakana ツ (tsu)">
+                                    <span class="kana" lang="ja">ツ</span>
                                     <span class="romaji">tsu</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/te.html">
-                                    <span class="kana">テ</span>
+                                <a href="katakana/te.html" aria-label="Scheda didattica Katakana テ (te)">
+                                    <span class="kana" lang="ja">テ</span>
                                     <span class="romaji">te</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/to.html">
-                                    <span class="kana">ト</span>
+                                <a href="katakana/to.html" aria-label="Scheda didattica Katakana ト (to)">
+                                    <span class="kana" lang="ja">ト</span>
                                     <span class="romaji">to</span>
                                 </a>
                             </td>
                         </tr>
                         <tr>
-                            <th class="row-label">n</th>
+                            <th class="row-label" scope="row">n</th>
                             <td class="kana-cell">
-                                <a href="katakana/na.html">
-                                    <span class="kana">ナ</span>
+                                <a href="katakana/na.html" aria-label="Scheda didattica Katakana ナ (na)">
+                                    <span class="kana" lang="ja">ナ</span>
                                     <span class="romaji">na</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/ni.html">
-                                    <span class="kana">ニ</span>
+                                <a href="katakana/ni.html" aria-label="Scheda didattica Katakana ニ (ni)">
+                                    <span class="kana" lang="ja">ニ</span>
                                     <span class="romaji">ni</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/nu.html">
-                                    <span class="kana">ヌ</span>
+                                <a href="katakana/nu.html" aria-label="Scheda didattica Katakana ヌ (nu)">
+                                    <span class="kana" lang="ja">ヌ</span>
                                     <span class="romaji">nu</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/ne.html">
-                                    <span class="kana">ネ</span>
+                                <a href="katakana/ne.html" aria-label="Scheda didattica Katakana ネ (ne)">
+                                    <span class="kana" lang="ja">ネ</span>
                                     <span class="romaji">ne</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/no.html">
-                                    <span class="kana">ノ</span>
+                                <a href="katakana/no.html" aria-label="Scheda didattica Katakana ノ (no)">
+                                    <span class="kana" lang="ja">ノ</span>
                                     <span class="romaji">no</span>
                                 </a>
                             </td>
                         </tr>
                         <tr>
-                            <th class="row-label">h</th>
+                            <th class="row-label" scope="row">h</th>
                             <td class="kana-cell">
-                                <a href="katakana/ha.html">
-                                    <span class="kana">ハ</span>
+                                <a href="katakana/ha.html" aria-label="Scheda didattica Katakana ハ (ha)">
+                                    <span class="kana" lang="ja">ハ</span>
                                     <span class="romaji">ha</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/hi.html">
-                                    <span class="kana">ヒ</span>
+                                <a href="katakana/hi.html" aria-label="Scheda didattica Katakana ヒ (hi)">
+                                    <span class="kana" lang="ja">ヒ</span>
                                     <span class="romaji">hi</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/fu.html">
-                                    <span class="kana">フ</span>
+                                <a href="katakana/fu.html" aria-label="Scheda didattica Katakana フ (fu)">
+                                    <span class="kana" lang="ja">フ</span>
                                     <span class="romaji">fu</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/he.html">
-                                    <span class="kana">ヘ</span>
+                                <a href="katakana/he.html" aria-label="Scheda didattica Katakana ヘ (he)">
+                                    <span class="kana" lang="ja">ヘ</span>
                                     <span class="romaji">he</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/ho.html">
-                                    <span class="kana">ホ</span>
+                                <a href="katakana/ho.html" aria-label="Scheda didattica Katakana ホ (ho)">
+                                    <span class="kana" lang="ja">ホ</span>
                                     <span class="romaji">ho</span>
                                 </a>
                             </td>
                         </tr>
                         <tr>
-                            <th class="row-label">m</th>
+                            <th class="row-label" scope="row">m</th>
                             <td class="kana-cell">
-                                <a href="katakana/ma.html">
-                                    <span class="kana">マ</span>
+                                <a href="katakana/ma.html" aria-label="Scheda didattica Katakana マ (ma)">
+                                    <span class="kana" lang="ja">マ</span>
                                     <span class="romaji">ma</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/mi.html">
-                                    <span class="kana">ミ</span>
+                                <a href="katakana/mi.html" aria-label="Scheda didattica Katakana ミ (mi)">
+                                    <span class="kana" lang="ja">ミ</span>
                                     <span class="romaji">mi</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/mu.html">
-                                    <span class="kana">ム</span>
+                                <a href="katakana/mu.html" aria-label="Scheda didattica Katakana ム (mu)">
+                                    <span class="kana" lang="ja">ム</span>
                                     <span class="romaji">mu</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/me.html">
-                                    <span class="kana">メ</span>
+                                <a href="katakana/me.html" aria-label="Scheda didattica Katakana メ (me)">
+                                    <span class="kana" lang="ja">メ</span>
                                     <span class="romaji">me</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/mo.html">
-                                    <span class="kana">モ</span>
+                                <a href="katakana/mo.html" aria-label="Scheda didattica Katakana モ (mo)">
+                                    <span class="kana" lang="ja">モ</span>
                                     <span class="romaji">mo</span>
                                 </a>
                             </td>
                         </tr>
                         <tr>
-                            <th class="row-label">y</th>
+                            <th class="row-label" scope="row">y</th>
                             <td class="kana-cell">
-                                <a href="katakana/ya.html">
-                                    <span class="kana">ヤ</span>
+                                <a href="katakana/ya.html" aria-label="Scheda didattica Katakana ヤ (ya)">
+                                    <span class="kana" lang="ja">ヤ</span>
                                     <span class="romaji">ya</span>
                                 </a>
                             </td>
                             <td class="kana-cell empty"></td>
                             <td class="kana-cell">
-                                <a href="katakana/yu.html">
-                                    <span class="kana">ユ</span>
+                                <a href="katakana/yu.html" aria-label="Scheda didattica Katakana ユ (yu)">
+                                    <span class="kana" lang="ja">ユ</span>
                                     <span class="romaji">yu</span>
                                 </a>
                             </td>
                             <td class="kana-cell empty"></td>
                             <td class="kana-cell">
-                                <a href="katakana/yo.html">
-                                    <span class="kana">ヨ</span>
+                                <a href="katakana/yo.html" aria-label="Scheda didattica Katakana ヨ (yo)">
+                                    <span class="kana" lang="ja">ヨ</span>
                                     <span class="romaji">yo</span>
                                 </a>
                             </td>
                         </tr>
                         <tr>
-                            <th class="row-label">r</th>
+                            <th class="row-label" scope="row">r</th>
                             <td class="kana-cell">
-                                <a href="katakana/ra.html">
-                                    <span class="kana">ラ</span>
+                                <a href="katakana/ra.html" aria-label="Scheda didattica Katakana ラ (ra)">
+                                    <span class="kana" lang="ja">ラ</span>
                                     <span class="romaji">ra</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/ri.html">
-                                    <span class="kana">リ</span>
+                                <a href="katakana/ri.html" aria-label="Scheda didattica Katakana リ (ri)">
+                                    <span class="kana" lang="ja">リ</span>
                                     <span class="romaji">ri</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/ru.html">
-                                    <span class="kana">ル</span>
+                                <a href="katakana/ru.html" aria-label="Scheda didattica Katakana ル (ru)">
+                                    <span class="kana" lang="ja">ル</span>
                                     <span class="romaji">ru</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/re.html">
-                                    <span class="kana">レ</span>
+                                <a href="katakana/re.html" aria-label="Scheda didattica Katakana レ (re)">
+                                    <span class="kana" lang="ja">レ</span>
                                     <span class="romaji">re</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/ro.html">
-                                    <span class="kana">ロ</span>
+                                <a href="katakana/ro.html" aria-label="Scheda didattica Katakana ロ (ro)">
+                                    <span class="kana" lang="ja">ロ</span>
                                     <span class="romaji">ro</span>
                                 </a>
                             </td>
                         </tr>
                         <tr>
-                            <th class="row-label">w/n</th>
+                            <th class="row-label" scope="row">w/n</th>
                             <td class="kana-cell">
-                                <a href="katakana/wa.html">
-                                    <span class="kana">ワ</span>
+                                <a href="katakana/wa.html" aria-label="Scheda didattica Katakana ワ (wa)">
+                                    <span class="kana" lang="ja">ワ</span>
                                     <span class="romaji">wa</span>
                                 </a>
                             </td>
                             <td class="kana-cell">
-                                <a href="katakana/n.html">
-                                    <span class="kana">ン</span>
+                                <a href="katakana/n.html" aria-label="Scheda didattica Katakana ン (n)">
+                                    <span class="kana" lang="ja">ン</span>
                                     <span class="romaji">n</span>
                                 </a>
                             </td>
                             <td class="kana-cell empty"></td>
                             <td class="kana-cell empty"></td>
                             <td class="kana-cell">
-                                <a href="katakana/wo.html">
-                                    <span class="kana">ヲ</span>
+                                <a href="katakana/wo.html" aria-label="Scheda didattica Katakana ヲ (wo)">
+                                    <span class="kana" lang="ja">ヲ</span>
                                     <span class="romaji">wo</span>
                                 </a>
                             </td>

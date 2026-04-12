@@ -225,6 +225,27 @@ footer a:hover {
 }
 
 /* Accessibilità */
+.skip-link {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    background: var(--red-jp);
+    color: white;
+    padding: 1rem;
+    z-index: 1000;
+    transition: top 0.3s;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+:focus-visible {
+    outline: 3px solid var(--gold-jp);
+    outline-offset: 4px;
+    border-radius: 4px;
+}
+
 @media (prefers-reduced-motion: reduce) {
 
     *,
