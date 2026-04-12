@@ -89,6 +89,7 @@
 }
 
 .kana {
+    font-family: var(--font-kana);
     font-size: 1.95em;
     font-weight: 700;
     color: #1a1a1a;

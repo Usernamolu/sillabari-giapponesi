@@ -10,9 +10,9 @@ Lista delle attività per il completamento e il mantenimento del prototipo didat
 - [x] **Pulizia Note**: Rimosse le note temporanee relative ai mini-quiz della lezione L01.
 
 ## 🟡 In Corso / Rifiniture Finali
-- [ ] **Validazione Link**: Controllo incrociato dei link Hiragana <-> Katakana per assicurarsi che non ci siano 404.
-- [ ] **Test di Reattività (Multi-device)**: Verifica della visualizzazione su Phone e Tablet (breakpoint critici).
-- [ ] **Revisione Font Didattico**: Verificare la resa grafica dei caratteri critici. Ad esempio, il kana **RI (り/リ)** deve avere i due tratti separati (stile calligrafico/scolastico) e non uniti come in alcuni font standard.
+- [x] **Validazione Link**: Controllo incrociato dei link Hiragana <-> Katakana (369 link verificati, 0 rotti).
+- [x] **Test di Reattività (Multi-device)**: Verifica della visualizzazione su Phone e Tablet.
+- [x] **Revisione Font Didattico**: Implementato **Klee One** per garantire tratti separati (es. RI, SA, KI).
 - [ ] **Accessibilità (A11y)**: Verifica dell'ordine dei tab e dei meta-tag ARIA nelle tabelle `gojuon`.
 - [ ] **Ottimizzazione Immagini**: Verificare se le GIF degli stroke order possono essere ottimizzate/caricate con lazy-loading.
 

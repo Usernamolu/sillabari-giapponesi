@@ -74,6 +74,7 @@
 }
 
 .main-kana {
+    font-family: var(--font-kana);
     font-size: clamp(7em, 13vw, 10.5em);
     color: #c41e3a;
     line-height: 1;
@@ -167,6 +168,7 @@
 
 .word-jp {
     display: block;
+    font-family: var(--font-kana);
     font-size: 2.5em;
     font-weight: 700;
     color: #c41e3a;
@@ -226,6 +228,7 @@
 
 .ref-char {
     display: block;
+    font-family: var(--font-kana);
     font-size: 3.5em;
     font-weight: 700;
     margin-bottom: 0.5rem;
