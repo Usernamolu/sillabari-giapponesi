@@ -1,20 +1,32 @@
-# Project TODO: Alfabeto Giapponese
+# Progetto: Alfabeto Giapponese (Digital Humanities)
 
-Lista delle attività per il completamento e il mantenimento del prototipo didattico.
+Obiettivo: Creare un prototipo web per l'apprendimento di Hiragana e Katakana con focus sulla correttezza didattica (font), accessibilità e standard DH.
 
-## 🟢 Completate (Aprile 2026)
-- [x] **Localizzazione massiva**: Rimossi tutti i termini mnemonici in inglese e le traduzioni tra parentesi (Hiragana + Katakana).
-- [x] **Allineamento Suggerimenti**: Inserite descrizioni tecniche precise per l'ordine dei tratti in tutte le 92 schede dei caratteri.
-- [x] **Attribuzione e Crediti**: Creata la sezione "Crediti e Fonti" in `index.html` con citazione formale di Tofugu LLC.
-- [x] **Sistema di Footer**: Implementato il link "Fonti e Metodologia" in tutte le schede per la trasparenza accademica.
-- [x] **Pulizia Note**: Rimosse le note temporanee relative ai mini-quiz della lezione L01.
+## Tabella di Marcia (Completata)
 
-## 🟡 In Corso / Rifiniture Finali
-- [x] **Validazione Link**: Controllo incrociato dei link Hiragana <-> Katakana (369 link verificati, 0 rotti).
-- [x] **Test di Reattività (Multi-device)**: Verifica della visualizzazione su Phone e Tablet.
-- [x] **Revisione Font Didattico**: Implementato **Klee One** per garantire tratti separati (es. RI, SA, KI).
-- [ ] **Accessibilità (A11y)**: Verifica dell'ordine dei tab e dei meta-tag ARIA nelle tabelle `gojuon`.
-- [ ] **Ottimizzazione Immagini**: Verificare se le GIF degli stroke order possono essere ottimizzate/caricate con lazy-loading.
+### Fase 1: Struttura e Contenuti (Completata)
+- [x] Generazione di 92 pagine per i singoli caratteri (46 Hiragana + 46 Katakana).
+- [x] Creazione della home page con tabelle interattive navigate via tastiera.
+- [x] Integrazione delle immagini per l'ordine dei tratti.
+- [x] Sviluppo del sistema di navigazione e stile coerente.
 
-## ⚪ Sviluppi Futuri (Potential)
-- [ ] **Integrazione Audio**: Aggiunta di tracce audio per la pronuncia nativa in ogni scheda.
+### Fase 2: Raffinamento Didattico e DH (Completata)
+- [x] Adozione del font **Klee One** (*Kyoukasho*) per la massima precisione calligrafica.
+- [x] Validazione completa dei link interni (0 rotti su 369).
+- [x] Implementazione metadati **TEI** per la conservazione digitale.
+- [x] Attribuzione corretta e ispirazione a Tofugu LLC.
+
+### Fase 3: Accessibilità (A11y) (Completata)
+- [x] Inserimento di Skip Links per la navigazione rapida.
+- [x] Ottimizzazione semantica delle tabelle (`scope="col/row"`).
+- [x] Supporto multilingua (`lang="ja"`) per screen reader.
+- [x] Miglioramento contrasto e indicatori di focus.
+
+### Fase 4: Consolidamento e SEO (Completata)
+- [x] Generazione e implementazione **Favicon** cross-platform.
+- [x] Creazione suite di test automatizzati con **Playwright**.
+- [x] Arricchimento **Schema Markup (JSON-LD)** per SEO didattico avanzato.
+- [x] Sincronizzazione finale su GitHub.
+
+---
+*Progetto concluso - Gabriele Errico - UniPV 2025-2026*
