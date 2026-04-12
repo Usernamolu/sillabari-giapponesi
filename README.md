@@ -23,10 +23,10 @@ Al momento:
 - [x] Homepage con tabella Hiragana (`gojuon`)
 - [x] Homepage con tabella Katakana (`gojuon`)
 - [x] Pagine Hiragana complete
-- [x] Pagine Katakana placeholder complete
+- [x] Pagine Katakana complete con contenuti reali (non placeholder)
 - [x] Metadati TEI (Hiragana + Katakana)
-- [ ] Sostituire i placeholder Katakana con contenuti da slide
-- [ ] Rafforzare bibliografia e riferimenti linguistici
+- [x] Allineamento tecnico suggerimenti ordine dei tratti (92/92)
+- [x] Sezione "Crediti e Fonti" e bibliografia centralizzata
 - [ ] Rifiniture UX/UI e validazione finale contenuti
 
 ## Workflow locale (utente finale)

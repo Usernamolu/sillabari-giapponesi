@@ -26,7 +26,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_i">
@@ -37,7 +37,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_u">
@@ -48,7 +48,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_e">
@@ -59,7 +59,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_o">
@@ -70,7 +70,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_ka">
@@ -81,7 +81,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_ki">
@@ -92,7 +92,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_ku">
@@ -103,7 +103,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_ke">
@@ -114,7 +114,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_ko">
@@ -125,7 +125,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_sa">
@@ -136,7 +136,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_shi">
@@ -147,7 +147,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_su">
@@ -158,7 +158,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_se">
@@ -169,7 +169,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_so">
@@ -180,7 +180,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_ta">
@@ -191,7 +191,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_chi">
@@ -202,7 +202,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_tsu">
@@ -213,7 +213,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_te">
@@ -224,7 +224,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_to">
@@ -235,7 +235,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_na">
@@ -246,7 +246,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_ni">
@@ -257,7 +257,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_nu">
@@ -268,7 +268,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_ne">
@@ -279,7 +279,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_no">
@@ -290,7 +290,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_ha">
@@ -301,7 +301,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_hi">
@@ -312,7 +312,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_fu">
@@ -323,7 +323,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_he">
@@ -334,7 +334,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_ho">
@@ -345,7 +345,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_ma">
@@ -356,7 +356,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_mi">
@@ -367,7 +367,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_mu">
@@ -378,7 +378,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_me">
@@ -389,7 +389,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_mo">
@@ -400,7 +400,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_ya">
@@ -411,7 +411,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_yu">
@@ -422,7 +422,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_yo">
@@ -433,7 +433,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_ra">
@@ -444,7 +444,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_ri">
@@ -455,7 +455,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_ru">
@@ -466,7 +466,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_re">
@@ -477,7 +477,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_ro">
@@ -488,7 +488,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_wa">
@@ -499,7 +499,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_n">
@@ -510,7 +510,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
         <char xml:id="katakana_wo">
@@ -521,7 +521,7 @@
           </charProp>
           <charProp>
             <localName>pronunciation</localName>
-            <value>placeholder</value>
+            <value>pronuncia identica hiragana</value>
           </charProp>
         </char>
       </entry>
