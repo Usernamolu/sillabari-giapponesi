@@ -28,5 +28,11 @@ Obiettivo: Creare un prototipo web per l'apprendimento di Hiragana e Katakana co
 - [x] Arricchimento **Schema Markup (JSON-LD)** per SEO didattico avanzato.
 - [x] Sincronizzazione finale su GitHub.
 
+### Manutenzione Futura (Skill Consigliate)
+- Per nuovi audit di accessibilità: `ui-a11y`
+- Per test di regressione: `webapp-testing` (Playwright)
+- Per aggiornamenti SEO: `schema-markup` e `seo-audit`
+- Per miglioramenti estetici: `frontend-design`
+
 ---
-*Progetto concluso - Gabriele Errico - UniPV 2025-2026*
+*Progetto concluso - Versione 1.0 - Gabriele Errico - UniPV 2025-2026*
