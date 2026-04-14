@@ -31,5 +31,5 @@ Se desideri approfondire l'enciclopedia mnemonica o i metadati testuali:
 - Le modifiche dirette ai metadati e al TEI si trovano nella cartella `metadata/`.
 - Per questioni legate a copyright per i materiali didattici ispirati (Tofugu), si prega di mantenere inalterati i badge di attribuzione a fondo pagina.
 
-Grazie mille per il tuo supporto!
+Grazie mille per il supporto!
  Gabriele Errico 
