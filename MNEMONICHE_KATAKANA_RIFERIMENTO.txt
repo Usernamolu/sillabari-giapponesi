@@ -1,6 +1,6 @@
 ================================================================================
-MNEMONICHE HIRAGANA - RIFERIMENTO RAPIDO
-Fonte Ufficiale: "Learn Hiragana" by TOFUGU LLC (https://www.tofugu.com)
+MNEMONICHE KATAKANA - RIFERIMENTO RAPIDO
+Fonte Ufficiale: "Learn Katakana" by TOFUGU LLC (https://www.tofugu.com)
 ================================================================================
 Nota: Questa è una selezione a scopo di riferimento rapido e dimostrativo per
 mostrare la metodologia didattica. Per l'apprendimento completo di tutti 
@@ -8,76 +8,76 @@ i caratteri (comprese le varianti sonore impura, semi-impura e contratta),
 si raccomanda di consultare l'opera originale all'indirizzo ufficiale.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-VOCALI (あ行)
+VOCALI (ア行)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-【あ】 - A
-Visual: Un woman with A big mouth saying "Ahhhhhh!"
-Story: You've never seen a woman with such A big mouth. She can only say "Ahhhhhh!"
+【ア】 - A
+Visual: An Arrow pointing right.
+Story: See the Arrow pointing down and right? "A" for Arrow.
 
-【い】 - I
-Visual: Two eels (eels = "E" sound, two = "I" sound)
-Story: The eels are writing the character い themselves
+【イ】 - I
+Visual: An Eagle.
+Story: Looks like an eagle looking down. "I" (Ea-gle, sounds like I) for Eagle.
 
-【う】 - U
-Visual: U-shaped fisherman's barb/hook
-Story: A sideways fish hook that catches things with a U-shape
+【ウ】 - U
+Visual: A U-turn.
+Story: It looks like the path of someone doing a U-turn.
 
-【え】 - E
-Visual: Exotic bird with a large crest and tail feathers
-Story: An exotic bird saying "eh?" with its mouth open
+【エ】 - E
+Visual: An Elevator.
+Story: It looks like the doors of an elevator shutting. 
 
-【お】 - O
-Visual: An oar hitting a head (O = Oar)
-Story: Someone gets hit in the head with an oar and yells "Ohhhhhh!"
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-RIGA K (か行)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-【か】 - KA
-Visual: Someone cutting a stick with a knife
-Story: The knife is cutting the stick. To remember this, think of the sound "ka" (cutting). 
-
-【き】 - KI
-Visual: A Key
-Story: It looks just like a skeleton key.
-
-【く】 - KU
-Visual: A Cuckoo bird's beak
-Story: It's the open beak of a cuckoo bird saying "Cuckoo!"
-
-【け】 - KE
-Visual: A Keg of beer
-Story: It looks like a barrel/keg.
-
-【こ】 - KO
-Visual: Two Co-habitating worms
-Story: Two squiggly worms co-habitating together in the dirt.
+【オ】 - O
+Visual: An Opera singer.
+Story: Someone singing opera with their hands up screaming "Ohhhhh!".
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-RIGA S (さ行)
+RIGA K (カ行)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-【さ】 - SA
-Visual: Sa-moking a pipe
-Story: It looks like someone smoking a pipe. "Sa" for sa-moking.
+【カ】 - KA
+Visual: Someone cutting a stick.
+Story: This is identical to the hiragana か, just with sharper, more blocky lines.
 
-【し】 - SHI
-Visual: A shepherd's hook or a fishing hook
-Story: It's a shepherd's hook. Note that this is "shi" not "si".
+【キ】 - KI
+Visual: A Key.
+Story: Like the hiragana き it also looks like a key, just without the bottom loop.
 
-【す】 - SU
-Visual: A Swing doing a loop-de-loop
-Story: See the swing doing a loop-de-loop round the pole.
+【ク】 - KU
+Visual: A Cook's hat.
+Story: It looks like a long cook's hat. "Ku" for Cook.
 
-【せ】 - SE
-Visual: Teeth
-Story: Looks like a set of teeth. Senpai's teeth?
+【ケ】 - KE
+Visual: A KEntucky fried chicken piece.
+Story: It resembles the letter "K" for Kentucky.
 
-【そ】 - SO
-Visual: A zigzag sewing stitch
-Story: It looks like a complex sewing stitch (so).
+【コ】 - KO
+Visual: Two Corners.
+Story: You can vividly see two corners, making a "Ko" sound.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RIGA S (サ行)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+【サ】 - SA
+Visual: Three SARdines.
+Story: Looks like three sardines impaled on a skewer.
+
+【シ】 - SHI
+Visual: A SHIp.
+Story: It looks like a smiley face looking up, or water splashing on a ship. (Careful not to confuse with Tsu ツ)
+
+【ス】 - SU
+Visual: A SUperman insignia.
+Story: It looks like the diamond holding the Superman 'S'.
+
+【セ】 - SE
+Visual: SEe the teeth?
+Story: Very similar to hiragana せ, just missing a piece!
+
+【ソ】 - SO
+Visual: One SOft serve ice cream.
+Story: Imagine the top point dropping down to make the big stroke of soft serve.
 
 ================================================================================
 Fine documento referenziale (Estratto)
