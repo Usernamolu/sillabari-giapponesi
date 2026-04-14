@@ -1,4 +1,4 @@
-# Alfabeto Giapponese - Hiragana + Katakana (DH Project)
+# Sillabari Giapponesi - Hiragana + Katakana (DH Project)
 
 Prototipo web didattico per il corso di Digital Humanities (UniPV, 2025-2026), con focus sui sillabari giapponesi.
 
@@ -35,8 +35,8 @@ Obiettivo: scaricare il progetto e farlo funzionare subito in locale, in modo st
 ### 1) Scarica il progetto
 Opzione A (Git):
 ```bash
-git clone git@github.com:Usernamolu/alfabeto-giapponese.git
-cd alfabeto-giapponese
+git clone git@github.com:Usernamolu/sillabari-giapponesi.git
+cd sillabari-giapponesi
 ```
 
 Opzione B (ZIP):
@@ -75,7 +75,7 @@ Pagina principale:
 
 ## Struttura essenziale
 ```text
-alfabeto-giapponese/
+sillabari-giapponesi/
   index.html
   metodologia.html
   assets/

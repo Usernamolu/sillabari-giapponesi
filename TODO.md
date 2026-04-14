@@ -1,4 +1,4 @@
-# Progetto: Alfabeto Giapponese (Digital Humanities)
+# Progetto: Sillabari Giapponesi (Digital Humanities)
 
 Obiettivo: Creare un prototipo web per l'apprendimento di Hiragana e Katakana con focus sulla correttezza didattica (font), accessibilità e standard DH.
 
