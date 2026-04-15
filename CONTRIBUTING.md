@@ -9,6 +9,10 @@ Diamo il benvenuto a diversi tipi di contributi:
 2. **Accessibilità ed Esperienza Utente (A11y)**: Se usi screen reader o vuoi migliorare il supporto all'accessibilità del sito web.
 3. **Miglioramenti Tecnici**: Segnalazione di bug, ottimizzazione del CSS e arricchimento dei metadati JSON-LD / TEI.
 
+### 日本語での貢献 (Contributi in giapponese)
+日本人の方で、イタリア語ができる方、あるいはGitHubやITリソースに詳しい方のプロジェクトへの協力やフィードバックを心よりお待ちしております。
+フィードbackや提案がある場合は、GitHubの [Issues](https://github.com/Usernamolu/sillabari-giapponesi/issues) を通じて直接ご連絡ください。
+
 ## Segnalare un Problema (Issues)
 
 Se hai trovato un bug o hai una proposta:
