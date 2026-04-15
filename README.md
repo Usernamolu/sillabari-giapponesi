@@ -1,33 +1,26 @@
 # Sillabari Giapponesi - Hiragana + Katakana (DH Project)
 
-Prototipo web didattico per il corso di Digital Humanities (UniPV, 2025-2026), con focus sui sillabari giapponesi.
+Prototipo web didattico open-source progettato per gli studenti e gli appassionati di lingua giapponese. Il progetto nasce in ambiente accademico per il corso di Digital Humanities (UniPV, 2025-2026) con un focus specifico sullo studio interattivo di Hiragana e Katakana.
+
+🌐 **Accesso Diretto**: L'applicazione è consultabile online da qualsiasi dispositivo (Desktop e Mobile) al seguente indirizzo ufficiale:
+**[https://usernamolu.github.io/sillabari-giapponesi/](https://usernamolu.github.io/sillabari-giapponesi/)**
 
 ## Stato del progetto
-Questo progetto e in divenire.
+Questo progetto **È** in divenire. 
 
-Al momento:
-- Tabelle Hiragana e Katakana presenti in homepage.
-- Pagine didattiche Hiragana complete (46/46).
-- Pagine Katakana complete come struttura tecnica (46/46) con contenuti placeholder in attesa delle slide.
-- Metadati TEI disponibili in `metadata/hiragana.tei.xml` e `metadata/katakana.tei.xml`.
-- Pagina `metodologia.html` disponibile come supporto.
+La piattaforma offre attualmente:
+- Tabelle `gojuon` esplorabili in homepage sia per Hiragana che Katakana.
+- Pagine didattiche per l'Hiragana complete (46/46 caratteri base).
+- Pagine Katakana complete in via di popolamento per quanto concerne le lezioni interne.
+- Metadati accademici TEI-XML strutturati disponibili nella cartella `metadata/`.
+- Pagina referenziale `metodologia.html` inclusa.
 
-## Cosa include oggi
-- Tabelle `gojuon` interattive (hover, click, navigazione da tastiera).
-- Pagine singolo carattere per Hiragana e Katakana.
-- Cross-link Hiragana <-> Katakana.
-- Base CSS/JS modulare in `assets/`.
-- Metadati in formato TEI.
-
-## Roadmap
-- [x] Homepage con tabella Hiragana (`gojuon`)
-- [x] Homepage con tabella Katakana (`gojuon`)
-- [x] Pagine Hiragana complete
-- [x] Pagine Katakana complete con contenuti reali (non placeholder)
-- [x] Metadati TEI (Hiragana + Katakana)
-- [x] Allineamento tecnico suggerimenti ordine dei tratti (92/92)
-- [x] Sezione "Crediti e Fonti" e bibliografia centralizzata
-- [ ] Rifiniture UX/UI e validazione finale contenuti
+## Funzionalità (Aprile 2026)
+- Tabelle `gojuon` interattive (effetti hover, focus e navigazione via tastiera).
+- Schede didattiche per singolo carattere fornite di informazioni ausiliarie (tratti, pronuncia mnemonica).
+- Cross-link continui tra Sillabario Hiragana e corrispettivo Katakana.
+- Configurazione Vanilla (HTML, CSS, JS) ultraveloce priva di dipendenze complesse.
+- Metadati semantici (TEI e Schema.org) integrati.
 
 ## Workflow locale (utente finale)
 Obiettivo: scaricare il progetto e farlo funzionare subito in locale, in modo stabile.
@@ -56,9 +49,9 @@ Se `python` non e disponibile:
 py -m http.server 8000
 ```
 
-Alternativa con Node:
+Alternativa con Node (npm):
 ```bash
-npx serve .
+npx http-server .
 ```
 
 ### 3) Apri il progetto nel browser
