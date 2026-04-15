@@ -1,6 +1,6 @@
 # Contribuire a Sillabari Giapponesi
 
-Siamo felici che tu voglia contribuire a questo progetto di Digital Humanities sviluppato per l'Università degli Studi di Pavia! L'obiettivo principale è massimizzare la chiarezza didattica, l'accessibilità e l'usabilità per gli studenti di lingua giapponese.
+Siamo felici che tu voglia contribuire a questo progetto! L'obiettivo è massimizzare la chiarezza didattica, l'accessibilità e l'usabilità per tutti gli studenti di lingua giapponese.
 
 ## Come puoi aiutarci
 
