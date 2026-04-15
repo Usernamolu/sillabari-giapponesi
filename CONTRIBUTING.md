@@ -1,13 +1,13 @@
 # Contribuire a Sillabari Giapponesi
 
-Siamo felici che tu voglia contribuire a questo progetto di Digital Humanities sviluppato per l'Università degli Studi di Pavia! L'obiettivo principale è massimizzare la chiarezza didattica, l'accessibilità e l'usabilità per gli studenti di lingua giapponese.
+Siamo felici che tu voglia contribuire a questo progetto! L'obiettivo è massimizzare la chiarezza didattica, l'accessibilità e l'usabilità per tutti gli studenti di lingua giapponese.
 
 ## Come puoi aiutarci
 
 Diamo il benvenuto a diversi tipi di contributi:
-1. **Correzioni Linguistiche/Didattiche**: Hai notato inesattezze nelle trascrizioni rōmaji, problemi con gli stroke order (ordini dei tratti) o vuoi suggerire miglioramenti alle traduzioni culturali?
-2. **Accessibilità ed Esperienza Utente (A11y)**: Se usi screen reader o vuoi migliorare il supporto all'accessibilità del sito web.
-3. **Miglioramenti Tecnici**: Segnalazione di bug, ottimizzazione del CSS e arricchimento dei metadati JSON-LD / TEI.
+1. **Correzioni linguistiche/didattiche**: hai notato inesattezze nelle trascrizioni rōmaji, problemi con gli stroke order (ordini dei tratti) o vuoi suggerire miglioramenti nelle traduzioni?
+2. **Accessibilità ed Esperienza Utente (A11y)**: se usi screen reader o vuoi migliorare il supporto all'accessibilità del sito web.
+3. **Miglioramenti Tecnici**: segnalazione di bug, ottimizzazione del CSS e arricchimento dei metadati JSON-LD / TEI.
 
 ### 日本語での貢献 (Contributi in giapponese)
 日本人の方で、イタリア語ができる方、あるいはGitHubやITリソースに詳しい方のプロジェクトへの協力やフィードバックを心よりお待ちしております。

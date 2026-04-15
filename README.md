@@ -6,7 +6,7 @@ Prototipo web didattico open-source progettato per gli studenti e gli appassiona
 **[https://usernamolu.github.io/sillabari-giapponesi/](https://usernamolu.github.io/sillabari-giapponesi/)**
 
 ## Stato del progetto
-Questo progetto **È** in divenire. 
+Questo progetto è in divenire. 
 
 La piattaforma offre attualmente:
 - Tabelle `gojuon` esplorabili in homepage sia per Hiragana che Katakana.
