@@ -5,7 +5,17 @@
 document.addEventListener('DOMContentLoaded', function () {
     initTableInteractions();
     initKeyboardNavigation();
+    initPrintButtons();
 });
+
+/**
+ * Pulsanti di stampa (listener JS: la CSP blocca gli handler inline)
+ */
+function initPrintButtons() {
+    document.querySelectorAll('.btn-download').forEach(btn => {
+        btn.addEventListener('click', () => window.print());
+    });
+}
 
 /**
  * Interazioni con le celle della tabella
@@ -52,7 +62,8 @@ function highlightRelated(cell) {
     const row = cell.parentElement;
     const cellIndex = Array.from(row.children).indexOf(cell);
 
-    row.classList.add('row-highlighted');
+    // Le celle hanno uno sfondo proprio: evidenzia le celle, non il <tr>
+    Array.from(row.children).forEach(c => c.classList.add('row-highlighted'));
 
     const rows = table.querySelectorAll('tbody tr');
     rows.forEach(r => {
@@ -76,66 +87,80 @@ function clearHighlights() {
 }
 
 /**
- * Navigazione con tastiera + debouncing
+ * Navigazione con tastiera: attiva solo quando il focus è su una cella,
+ * così le frecce continuano a scorrere la pagina altrove.
  */
 function initKeyboardNavigation() {
-    let currentIndex = 0;
-    const cells = Array.from(document.querySelectorAll('.kana-cell:not(.empty) a:not(.is-disabled)'));
-
-    const debouncedFocus = debounce(focusCell, 100);
-
     document.addEventListener('keydown', function (e) {
-        if (!cells.length) return;
+        if (e.altKey || e.ctrlKey || e.metaKey) return;
 
-        switch (e.key) {
-            case 'ArrowRight':
-                e.preventDefault();
-                currentIndex = (currentIndex + 1) % cells.length;
-                debouncedFocus(currentIndex);
-                break;
+        const link = document.activeElement && document.activeElement.closest &&
+            document.activeElement.closest('.kana-cell a:not(.is-disabled)');
+        if (!link) return;
 
-            case 'ArrowLeft':
-                e.preventDefault();
-                currentIndex = (currentIndex - 1 + cells.length) % cells.length;
-                debouncedFocus(currentIndex);
-                break;
+        const target = findNeighbour(link, e.key);
+        if (target === undefined) return;
 
-            case 'ArrowDown':
-                e.preventDefault();
-                currentIndex = Math.min(currentIndex + 5, cells.length - 1);
-                debouncedFocus(currentIndex);
-                break;
-
-            case 'ArrowUp':
-                e.preventDefault();
-                currentIndex = Math.max(currentIndex - 5, 0);
-                debouncedFocus(currentIndex);
-                break;
-        }
+        e.preventDefault();
+        if (target) focusCell(target);
     });
 }
 
 /**
- * Visualizzazione grafica della cella selezionata
+ * Trova il link della cella adiacente nella stessa tabella
+ * (restituisce undefined se il tasto non è una freccia)
  */
-function focusCell(index) {
-    const cells = document.querySelectorAll('.kana-cell:not(.empty) a:not(.is-disabled)');
-    if (cells[index]) {
-        const cell = cells[index].closest('.kana-cell');
-        cell.scrollIntoView({ behavior: 'smooth', block: 'center' });
+function findNeighbour(link, key) {
+    const cell = link.closest('.kana-cell');
+    const table = cell.closest('table');
+    const rows = Array.from(table.querySelectorAll('tbody tr'));
+    const rowIndex = rows.indexOf(cell.parentElement);
+    const colIndex = Array.from(cell.parentElement.children).indexOf(cell);
+    const linkAt = (r, c) => {
+        const td = rows[r] && rows[r].children[c];
+        return td ? td.querySelector('a:not(.is-disabled)') : null;
+    };
 
-        cell.style.boxShadow = '0 0 20px rgba(196, 30, 58, 0.6)';
-        setTimeout(() => {
-            cell.style.boxShadow = '';
-        }, 500);
+    switch (key) {
+        case 'ArrowRight':
+        case 'ArrowLeft': {
+            const links = Array.from(table.querySelectorAll('.kana-cell a:not(.is-disabled)'));
+            const i = links.indexOf(link) + (key === 'ArrowRight' ? 1 : -1);
+            return links[i] || null;
+        }
+        case 'ArrowDown':
+        case 'ArrowUp': {
+            const step = key === 'ArrowDown' ? 1 : -1;
+            for (let r = rowIndex + step; r >= 0 && r < rows.length; r += step) {
+                const next = linkAt(r, colIndex);
+                if (next) return next;
+            }
+            return null;
+        }
+        default:
+            return undefined;
     }
 }
 
+/**
+ * Sposta il focus sulla cella e la evidenzia brevemente
+ */
+function focusCell(link) {
+    const cell = link.closest('.kana-cell');
+    link.focus({ preventScroll: true });
+    cell.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
+    cell.style.boxShadow = '0 0 20px rgba(196, 30, 58, 0.6)';
+    setTimeout(() => {
+        cell.style.boxShadow = '';
+    }, 500);
+}
+
 StyleManager.inject('table-highlights', `
-    .row-highlighted {
+    .row-highlighted:not(:hover) {
         background: rgba(255, 183, 197, 0.2) !important;
     }
-    .col-highlighted {
+    .col-highlighted:not(:hover) {
         background: rgba(135, 206, 235, 0.2) !important;
     }
 `);

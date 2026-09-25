@@ -8,523 +8,393 @@
         <author>Gabriele Errico</author>
       </titleStmt>
       <publicationStmt>
-        <p>Progetto per l'esame di Digital Humanities - Universita di Pavia</p>
+        <p>Progetto per l'esame di Digital Humanities - Università di Pavia</p>
       </publicationStmt>
       <sourceDesc>
         <p>Nato digitale (Born-digital resource)</p>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <charDecl>
+        <desc>I 46 caratteri base del sillabario Katakana (gojūon). Proprietà locali: romaji (Hepburn), ipa (trascrizione larga, giapponese standard), strokes (numero di tratti).</desc>
+        <char xml:id="katakana_a">
+          <unicodeProp name="Name" value="KATAKANA LETTER A"/>
+          <localProp name="romaji" value="a"/>
+          <localProp name="ipa" value="a"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">ア</mapping>
+        </char>
+        <char xml:id="katakana_i">
+          <unicodeProp name="Name" value="KATAKANA LETTER I"/>
+          <localProp name="romaji" value="i"/>
+          <localProp name="ipa" value="i"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">イ</mapping>
+        </char>
+        <char xml:id="katakana_u">
+          <unicodeProp name="Name" value="KATAKANA LETTER U"/>
+          <localProp name="romaji" value="u"/>
+          <localProp name="ipa" value="ɯ"/>
+          <localProp name="strokes" value="3"/>
+          <mapping type="standard">ウ</mapping>
+        </char>
+        <char xml:id="katakana_e">
+          <unicodeProp name="Name" value="KATAKANA LETTER E"/>
+          <localProp name="romaji" value="e"/>
+          <localProp name="ipa" value="e"/>
+          <localProp name="strokes" value="3"/>
+          <mapping type="standard">エ</mapping>
+        </char>
+        <char xml:id="katakana_o">
+          <unicodeProp name="Name" value="KATAKANA LETTER O"/>
+          <localProp name="romaji" value="o"/>
+          <localProp name="ipa" value="o"/>
+          <localProp name="strokes" value="3"/>
+          <mapping type="standard">オ</mapping>
+        </char>
+        <char xml:id="katakana_ka">
+          <unicodeProp name="Name" value="KATAKANA LETTER KA"/>
+          <localProp name="romaji" value="ka"/>
+          <localProp name="ipa" value="ka"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">カ</mapping>
+        </char>
+        <char xml:id="katakana_ki">
+          <unicodeProp name="Name" value="KATAKANA LETTER KI"/>
+          <localProp name="romaji" value="ki"/>
+          <localProp name="ipa" value="ki"/>
+          <localProp name="strokes" value="3"/>
+          <mapping type="standard">キ</mapping>
+        </char>
+        <char xml:id="katakana_ku">
+          <unicodeProp name="Name" value="KATAKANA LETTER KU"/>
+          <localProp name="romaji" value="ku"/>
+          <localProp name="ipa" value="kɯ"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">ク</mapping>
+        </char>
+        <char xml:id="katakana_ke">
+          <unicodeProp name="Name" value="KATAKANA LETTER KE"/>
+          <localProp name="romaji" value="ke"/>
+          <localProp name="ipa" value="ke"/>
+          <localProp name="strokes" value="3"/>
+          <mapping type="standard">ケ</mapping>
+        </char>
+        <char xml:id="katakana_ko">
+          <unicodeProp name="Name" value="KATAKANA LETTER KO"/>
+          <localProp name="romaji" value="ko"/>
+          <localProp name="ipa" value="ko"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">コ</mapping>
+        </char>
+        <char xml:id="katakana_sa">
+          <unicodeProp name="Name" value="KATAKANA LETTER SA"/>
+          <localProp name="romaji" value="sa"/>
+          <localProp name="ipa" value="sa"/>
+          <localProp name="strokes" value="3"/>
+          <mapping type="standard">サ</mapping>
+        </char>
+        <char xml:id="katakana_shi">
+          <unicodeProp name="Name" value="KATAKANA LETTER SI"/>
+          <localProp name="romaji" value="shi"/>
+          <localProp name="ipa" value="ɕi"/>
+          <localProp name="strokes" value="3"/>
+          <mapping type="standard">シ</mapping>
+        </char>
+        <char xml:id="katakana_su">
+          <unicodeProp name="Name" value="KATAKANA LETTER SU"/>
+          <localProp name="romaji" value="su"/>
+          <localProp name="ipa" value="sɯ"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">ス</mapping>
+        </char>
+        <char xml:id="katakana_se">
+          <unicodeProp name="Name" value="KATAKANA LETTER SE"/>
+          <localProp name="romaji" value="se"/>
+          <localProp name="ipa" value="se"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">セ</mapping>
+        </char>
+        <char xml:id="katakana_so">
+          <unicodeProp name="Name" value="KATAKANA LETTER SO"/>
+          <localProp name="romaji" value="so"/>
+          <localProp name="ipa" value="so"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">ソ</mapping>
+        </char>
+        <char xml:id="katakana_ta">
+          <unicodeProp name="Name" value="KATAKANA LETTER TA"/>
+          <localProp name="romaji" value="ta"/>
+          <localProp name="ipa" value="ta"/>
+          <localProp name="strokes" value="3"/>
+          <mapping type="standard">タ</mapping>
+        </char>
+        <char xml:id="katakana_chi">
+          <unicodeProp name="Name" value="KATAKANA LETTER TI"/>
+          <localProp name="romaji" value="chi"/>
+          <localProp name="ipa" value="tɕi"/>
+          <localProp name="strokes" value="3"/>
+          <mapping type="standard">チ</mapping>
+        </char>
+        <char xml:id="katakana_tsu">
+          <unicodeProp name="Name" value="KATAKANA LETTER TU"/>
+          <localProp name="romaji" value="tsu"/>
+          <localProp name="ipa" value="tsɯ"/>
+          <localProp name="strokes" value="3"/>
+          <mapping type="standard">ツ</mapping>
+        </char>
+        <char xml:id="katakana_te">
+          <unicodeProp name="Name" value="KATAKANA LETTER TE"/>
+          <localProp name="romaji" value="te"/>
+          <localProp name="ipa" value="te"/>
+          <localProp name="strokes" value="3"/>
+          <mapping type="standard">テ</mapping>
+        </char>
+        <char xml:id="katakana_to">
+          <unicodeProp name="Name" value="KATAKANA LETTER TO"/>
+          <localProp name="romaji" value="to"/>
+          <localProp name="ipa" value="to"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">ト</mapping>
+        </char>
+        <char xml:id="katakana_na">
+          <unicodeProp name="Name" value="KATAKANA LETTER NA"/>
+          <localProp name="romaji" value="na"/>
+          <localProp name="ipa" value="na"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">ナ</mapping>
+        </char>
+        <char xml:id="katakana_ni">
+          <unicodeProp name="Name" value="KATAKANA LETTER NI"/>
+          <localProp name="romaji" value="ni"/>
+          <localProp name="ipa" value="ɲi"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">ニ</mapping>
+        </char>
+        <char xml:id="katakana_nu">
+          <unicodeProp name="Name" value="KATAKANA LETTER NU"/>
+          <localProp name="romaji" value="nu"/>
+          <localProp name="ipa" value="nɯ"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">ヌ</mapping>
+        </char>
+        <char xml:id="katakana_ne">
+          <unicodeProp name="Name" value="KATAKANA LETTER NE"/>
+          <localProp name="romaji" value="ne"/>
+          <localProp name="ipa" value="ne"/>
+          <localProp name="strokes" value="4"/>
+          <mapping type="standard">ネ</mapping>
+        </char>
+        <char xml:id="katakana_no">
+          <unicodeProp name="Name" value="KATAKANA LETTER NO"/>
+          <localProp name="romaji" value="no"/>
+          <localProp name="ipa" value="no"/>
+          <localProp name="strokes" value="1"/>
+          <mapping type="standard">ノ</mapping>
+        </char>
+        <char xml:id="katakana_ha">
+          <unicodeProp name="Name" value="KATAKANA LETTER HA"/>
+          <localProp name="romaji" value="ha"/>
+          <localProp name="ipa" value="ha"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">ハ</mapping>
+        </char>
+        <char xml:id="katakana_hi">
+          <unicodeProp name="Name" value="KATAKANA LETTER HI"/>
+          <localProp name="romaji" value="hi"/>
+          <localProp name="ipa" value="çi"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">ヒ</mapping>
+        </char>
+        <char xml:id="katakana_fu">
+          <unicodeProp name="Name" value="KATAKANA LETTER HU"/>
+          <localProp name="romaji" value="fu"/>
+          <localProp name="ipa" value="ɸɯ"/>
+          <localProp name="strokes" value="1"/>
+          <mapping type="standard">フ</mapping>
+        </char>
+        <char xml:id="katakana_he">
+          <unicodeProp name="Name" value="KATAKANA LETTER HE"/>
+          <localProp name="romaji" value="he"/>
+          <localProp name="ipa" value="he"/>
+          <localProp name="strokes" value="1"/>
+          <mapping type="standard">ヘ</mapping>
+        </char>
+        <char xml:id="katakana_ho">
+          <unicodeProp name="Name" value="KATAKANA LETTER HO"/>
+          <localProp name="romaji" value="ho"/>
+          <localProp name="ipa" value="ho"/>
+          <localProp name="strokes" value="4"/>
+          <mapping type="standard">ホ</mapping>
+        </char>
+        <char xml:id="katakana_ma">
+          <unicodeProp name="Name" value="KATAKANA LETTER MA"/>
+          <localProp name="romaji" value="ma"/>
+          <localProp name="ipa" value="ma"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">マ</mapping>
+        </char>
+        <char xml:id="katakana_mi">
+          <unicodeProp name="Name" value="KATAKANA LETTER MI"/>
+          <localProp name="romaji" value="mi"/>
+          <localProp name="ipa" value="mi"/>
+          <localProp name="strokes" value="3"/>
+          <mapping type="standard">ミ</mapping>
+        </char>
+        <char xml:id="katakana_mu">
+          <unicodeProp name="Name" value="KATAKANA LETTER MU"/>
+          <localProp name="romaji" value="mu"/>
+          <localProp name="ipa" value="mɯ"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">ム</mapping>
+        </char>
+        <char xml:id="katakana_me">
+          <unicodeProp name="Name" value="KATAKANA LETTER ME"/>
+          <localProp name="romaji" value="me"/>
+          <localProp name="ipa" value="me"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">メ</mapping>
+        </char>
+        <char xml:id="katakana_mo">
+          <unicodeProp name="Name" value="KATAKANA LETTER MO"/>
+          <localProp name="romaji" value="mo"/>
+          <localProp name="ipa" value="mo"/>
+          <localProp name="strokes" value="3"/>
+          <mapping type="standard">モ</mapping>
+        </char>
+        <char xml:id="katakana_ya">
+          <unicodeProp name="Name" value="KATAKANA LETTER YA"/>
+          <localProp name="romaji" value="ya"/>
+          <localProp name="ipa" value="ja"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">ヤ</mapping>
+        </char>
+        <char xml:id="katakana_yu">
+          <unicodeProp name="Name" value="KATAKANA LETTER YU"/>
+          <localProp name="romaji" value="yu"/>
+          <localProp name="ipa" value="jɯ"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">ユ</mapping>
+        </char>
+        <char xml:id="katakana_yo">
+          <unicodeProp name="Name" value="KATAKANA LETTER YO"/>
+          <localProp name="romaji" value="yo"/>
+          <localProp name="ipa" value="jo"/>
+          <localProp name="strokes" value="3"/>
+          <mapping type="standard">ヨ</mapping>
+        </char>
+        <char xml:id="katakana_ra">
+          <unicodeProp name="Name" value="KATAKANA LETTER RA"/>
+          <localProp name="romaji" value="ra"/>
+          <localProp name="ipa" value="ɾa"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">ラ</mapping>
+        </char>
+        <char xml:id="katakana_ri">
+          <unicodeProp name="Name" value="KATAKANA LETTER RI"/>
+          <localProp name="romaji" value="ri"/>
+          <localProp name="ipa" value="ɾi"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">リ</mapping>
+        </char>
+        <char xml:id="katakana_ru">
+          <unicodeProp name="Name" value="KATAKANA LETTER RU"/>
+          <localProp name="romaji" value="ru"/>
+          <localProp name="ipa" value="ɾɯ"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">ル</mapping>
+        </char>
+        <char xml:id="katakana_re">
+          <unicodeProp name="Name" value="KATAKANA LETTER RE"/>
+          <localProp name="romaji" value="re"/>
+          <localProp name="ipa" value="ɾe"/>
+          <localProp name="strokes" value="1"/>
+          <mapping type="standard">レ</mapping>
+        </char>
+        <char xml:id="katakana_ro">
+          <unicodeProp name="Name" value="KATAKANA LETTER RO"/>
+          <localProp name="romaji" value="ro"/>
+          <localProp name="ipa" value="ɾo"/>
+          <localProp name="strokes" value="3"/>
+          <mapping type="standard">ロ</mapping>
+        </char>
+        <char xml:id="katakana_wa">
+          <unicodeProp name="Name" value="KATAKANA LETTER WA"/>
+          <localProp name="romaji" value="wa"/>
+          <localProp name="ipa" value="wa"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">ワ</mapping>
+        </char>
+        <char xml:id="katakana_wo">
+          <unicodeProp name="Name" value="KATAKANA LETTER WO"/>
+          <localProp name="romaji" value="wo"/>
+          <localProp name="ipa" value="o"/>
+          <localProp name="strokes" value="3"/>
+          <mapping type="standard">ヲ</mapping>
+        </char>
+        <char xml:id="katakana_n">
+          <unicodeProp name="Name" value="KATAKANA LETTER N"/>
+          <localProp name="romaji" value="n"/>
+          <localProp name="ipa" value="ɴ"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">ン</mapping>
+        </char>
+      </charDecl>
+    </encodingDesc>
   </teiHeader>
   <text>
     <body>
-      <entry>
-        <char xml:id="katakana_a">
-          <charName>KATAKANA LETTER A</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>a</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_i">
-          <charName>KATAKANA LETTER I</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>i</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_u">
-          <charName>KATAKANA LETTER U</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>u</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_e">
-          <charName>KATAKANA LETTER E</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>e</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_o">
-          <charName>KATAKANA LETTER O</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>o</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_ka">
-          <charName>KATAKANA LETTER KA</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>ka</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_ki">
-          <charName>KATAKANA LETTER KI</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>ki</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_ku">
-          <charName>KATAKANA LETTER KU</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>ku</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_ke">
-          <charName>KATAKANA LETTER KE</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>ke</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_ko">
-          <charName>KATAKANA LETTER KO</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>ko</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_sa">
-          <charName>KATAKANA LETTER SA</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>sa</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_shi">
-          <charName>KATAKANA LETTER SHI</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>shi</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_su">
-          <charName>KATAKANA LETTER SU</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>su</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_se">
-          <charName>KATAKANA LETTER SE</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>se</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_so">
-          <charName>KATAKANA LETTER SO</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>so</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_ta">
-          <charName>KATAKANA LETTER TA</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>ta</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_chi">
-          <charName>KATAKANA LETTER CHI</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>chi</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_tsu">
-          <charName>KATAKANA LETTER TSU</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>tsu</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_te">
-          <charName>KATAKANA LETTER TE</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>te</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_to">
-          <charName>KATAKANA LETTER TO</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>to</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_na">
-          <charName>KATAKANA LETTER NA</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>na</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_ni">
-          <charName>KATAKANA LETTER NI</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>ni</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_nu">
-          <charName>KATAKANA LETTER NU</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>nu</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_ne">
-          <charName>KATAKANA LETTER NE</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>ne</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_no">
-          <charName>KATAKANA LETTER NO</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>no</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_ha">
-          <charName>KATAKANA LETTER HA</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>ha</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_hi">
-          <charName>KATAKANA LETTER HI</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>hi</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_fu">
-          <charName>KATAKANA LETTER FU</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>fu</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_he">
-          <charName>KATAKANA LETTER HE</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>he</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_ho">
-          <charName>KATAKANA LETTER HO</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>ho</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_ma">
-          <charName>KATAKANA LETTER MA</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>ma</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_mi">
-          <charName>KATAKANA LETTER MI</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>mi</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_mu">
-          <charName>KATAKANA LETTER MU</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>mu</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_me">
-          <charName>KATAKANA LETTER ME</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>me</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_mo">
-          <charName>KATAKANA LETTER MO</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>mo</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_ya">
-          <charName>KATAKANA LETTER YA</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>ya</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_yu">
-          <charName>KATAKANA LETTER YU</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>yu</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_yo">
-          <charName>KATAKANA LETTER YO</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>yo</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_ra">
-          <charName>KATAKANA LETTER RA</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>ra</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_ri">
-          <charName>KATAKANA LETTER RI</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>ri</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_ru">
-          <charName>KATAKANA LETTER RU</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>ru</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_re">
-          <charName>KATAKANA LETTER RE</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>re</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_ro">
-          <charName>KATAKANA LETTER RO</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>ro</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_wa">
-          <charName>KATAKANA LETTER WA</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>wa</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_n">
-          <charName>KATAKANA LETTER N</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>n</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-        <char xml:id="katakana_wo">
-          <charName>KATAKANA LETTER WO</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>wo</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>pronuncia identica hiragana</value>
-          </charProp>
-        </char>
-      </entry>
+      <div type="gojuon">
+        <head>Katakana: tabella gojūon</head>
+        <list>
+          <item><g ref="#katakana_a">ア</g> <ref target="../katakana/a.html">a</ref></item>
+          <item><g ref="#katakana_i">イ</g> <ref target="../katakana/i.html">i</ref></item>
+          <item><g ref="#katakana_u">ウ</g> <ref target="../katakana/u.html">u</ref></item>
+          <item><g ref="#katakana_e">エ</g> <ref target="../katakana/e.html">e</ref></item>
+          <item><g ref="#katakana_o">オ</g> <ref target="../katakana/o.html">o</ref></item>
+          <item><g ref="#katakana_ka">カ</g> <ref target="../katakana/ka.html">ka</ref></item>
+          <item><g ref="#katakana_ki">キ</g> <ref target="../katakana/ki.html">ki</ref></item>
+          <item><g ref="#katakana_ku">ク</g> <ref target="../katakana/ku.html">ku</ref></item>
+          <item><g ref="#katakana_ke">ケ</g> <ref target="../katakana/ke.html">ke</ref></item>
+          <item><g ref="#katakana_ko">コ</g> <ref target="../katakana/ko.html">ko</ref></item>
+          <item><g ref="#katakana_sa">サ</g> <ref target="../katakana/sa.html">sa</ref></item>
+          <item><g ref="#katakana_shi">シ</g> <ref target="../katakana/shi.html">shi</ref></item>
+          <item><g ref="#katakana_su">ス</g> <ref target="../katakana/su.html">su</ref></item>
+          <item><g ref="#katakana_se">セ</g> <ref target="../katakana/se.html">se</ref></item>
+          <item><g ref="#katakana_so">ソ</g> <ref target="../katakana/so.html">so</ref></item>
+          <item><g ref="#katakana_ta">タ</g> <ref target="../katakana/ta.html">ta</ref></item>
+          <item><g ref="#katakana_chi">チ</g> <ref target="../katakana/chi.html">chi</ref></item>
+          <item><g ref="#katakana_tsu">ツ</g> <ref target="../katakana/tsu.html">tsu</ref></item>
+          <item><g ref="#katakana_te">テ</g> <ref target="../katakana/te.html">te</ref></item>
+          <item><g ref="#katakana_to">ト</g> <ref target="../katakana/to.html">to</ref></item>
+          <item><g ref="#katakana_na">ナ</g> <ref target="../katakana/na.html">na</ref></item>
+          <item><g ref="#katakana_ni">ニ</g> <ref target="../katakana/ni.html">ni</ref></item>
+          <item><g ref="#katakana_nu">ヌ</g> <ref target="../katakana/nu.html">nu</ref></item>
+          <item><g ref="#katakana_ne">ネ</g> <ref target="../katakana/ne.html">ne</ref></item>
+          <item><g ref="#katakana_no">ノ</g> <ref target="../katakana/no.html">no</ref></item>
+          <item><g ref="#katakana_ha">ハ</g> <ref target="../katakana/ha.html">ha</ref></item>
+          <item><g ref="#katakana_hi">ヒ</g> <ref target="../katakana/hi.html">hi</ref></item>
+          <item><g ref="#katakana_fu">フ</g> <ref target="../katakana/fu.html">fu</ref></item>
+          <item><g ref="#katakana_he">ヘ</g> <ref target="../katakana/he.html">he</ref></item>
+          <item><g ref="#katakana_ho">ホ</g> <ref target="../katakana/ho.html">ho</ref></item>
+          <item><g ref="#katakana_ma">マ</g> <ref target="../katakana/ma.html">ma</ref></item>
+          <item><g ref="#katakana_mi">ミ</g> <ref target="../katakana/mi.html">mi</ref></item>
+          <item><g ref="#katakana_mu">ム</g> <ref target="../katakana/mu.html">mu</ref></item>
+          <item><g ref="#katakana_me">メ</g> <ref target="../katakana/me.html">me</ref></item>
+          <item><g ref="#katakana_mo">モ</g> <ref target="../katakana/mo.html">mo</ref></item>
+          <item><g ref="#katakana_ya">ヤ</g> <ref target="../katakana/ya.html">ya</ref></item>
+          <item><g ref="#katakana_yu">ユ</g> <ref target="../katakana/yu.html">yu</ref></item>
+          <item><g ref="#katakana_yo">ヨ</g> <ref target="../katakana/yo.html">yo</ref></item>
+          <item><g ref="#katakana_ra">ラ</g> <ref target="../katakana/ra.html">ra</ref></item>
+          <item><g ref="#katakana_ri">リ</g> <ref target="../katakana/ri.html">ri</ref></item>
+          <item><g ref="#katakana_ru">ル</g> <ref target="../katakana/ru.html">ru</ref></item>
+          <item><g ref="#katakana_re">レ</g> <ref target="../katakana/re.html">re</ref></item>
+          <item><g ref="#katakana_ro">ロ</g> <ref target="../katakana/ro.html">ro</ref></item>
+          <item><g ref="#katakana_wa">ワ</g> <ref target="../katakana/wa.html">wa</ref></item>
+          <item><g ref="#katakana_wo">ヲ</g> <ref target="../katakana/wo.html">wo</ref></item>
+          <item><g ref="#katakana_n">ン</g> <ref target="../katakana/n.html">n</ref></item>
+        </list>
+      </div>
     </body>
   </text>
 </TEI>

@@ -14,66 +14,387 @@
         <p>Nato digitale (Born-digital resource)</p>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <charDecl>
+        <desc>I 46 caratteri base del sillabario Hiragana (gojūon). Proprietà locali: romaji (Hepburn), ipa (trascrizione larga, giapponese standard), strokes (numero di tratti).</desc>
+        <char xml:id="hiragana_a">
+          <unicodeProp name="Name" value="HIRAGANA LETTER A"/>
+          <localProp name="romaji" value="a"/>
+          <localProp name="ipa" value="a"/>
+          <localProp name="strokes" value="3"/>
+          <mapping type="standard">あ</mapping>
+        </char>
+        <char xml:id="hiragana_i">
+          <unicodeProp name="Name" value="HIRAGANA LETTER I"/>
+          <localProp name="romaji" value="i"/>
+          <localProp name="ipa" value="i"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">い</mapping>
+        </char>
+        <char xml:id="hiragana_u">
+          <unicodeProp name="Name" value="HIRAGANA LETTER U"/>
+          <localProp name="romaji" value="u"/>
+          <localProp name="ipa" value="ɯ"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">う</mapping>
+        </char>
+        <char xml:id="hiragana_e">
+          <unicodeProp name="Name" value="HIRAGANA LETTER E"/>
+          <localProp name="romaji" value="e"/>
+          <localProp name="ipa" value="e"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">え</mapping>
+        </char>
+        <char xml:id="hiragana_o">
+          <unicodeProp name="Name" value="HIRAGANA LETTER O"/>
+          <localProp name="romaji" value="o"/>
+          <localProp name="ipa" value="o"/>
+          <localProp name="strokes" value="3"/>
+          <mapping type="standard">お</mapping>
+        </char>
+        <char xml:id="hiragana_ka">
+          <unicodeProp name="Name" value="HIRAGANA LETTER KA"/>
+          <localProp name="romaji" value="ka"/>
+          <localProp name="ipa" value="ka"/>
+          <localProp name="strokes" value="3"/>
+          <mapping type="standard">か</mapping>
+        </char>
+        <char xml:id="hiragana_ki">
+          <unicodeProp name="Name" value="HIRAGANA LETTER KI"/>
+          <localProp name="romaji" value="ki"/>
+          <localProp name="ipa" value="ki"/>
+          <localProp name="strokes" value="4"/>
+          <mapping type="standard">き</mapping>
+        </char>
+        <char xml:id="hiragana_ku">
+          <unicodeProp name="Name" value="HIRAGANA LETTER KU"/>
+          <localProp name="romaji" value="ku"/>
+          <localProp name="ipa" value="kɯ"/>
+          <localProp name="strokes" value="1"/>
+          <mapping type="standard">く</mapping>
+        </char>
+        <char xml:id="hiragana_ke">
+          <unicodeProp name="Name" value="HIRAGANA LETTER KE"/>
+          <localProp name="romaji" value="ke"/>
+          <localProp name="ipa" value="ke"/>
+          <localProp name="strokes" value="3"/>
+          <mapping type="standard">け</mapping>
+        </char>
+        <char xml:id="hiragana_ko">
+          <unicodeProp name="Name" value="HIRAGANA LETTER KO"/>
+          <localProp name="romaji" value="ko"/>
+          <localProp name="ipa" value="ko"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">こ</mapping>
+        </char>
+        <char xml:id="hiragana_sa">
+          <unicodeProp name="Name" value="HIRAGANA LETTER SA"/>
+          <localProp name="romaji" value="sa"/>
+          <localProp name="ipa" value="sa"/>
+          <localProp name="strokes" value="3"/>
+          <mapping type="standard">さ</mapping>
+        </char>
+        <char xml:id="hiragana_shi">
+          <unicodeProp name="Name" value="HIRAGANA LETTER SI"/>
+          <localProp name="romaji" value="shi"/>
+          <localProp name="ipa" value="ɕi"/>
+          <localProp name="strokes" value="1"/>
+          <mapping type="standard">し</mapping>
+        </char>
+        <char xml:id="hiragana_su">
+          <unicodeProp name="Name" value="HIRAGANA LETTER SU"/>
+          <localProp name="romaji" value="su"/>
+          <localProp name="ipa" value="sɯ"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">す</mapping>
+        </char>
+        <char xml:id="hiragana_se">
+          <unicodeProp name="Name" value="HIRAGANA LETTER SE"/>
+          <localProp name="romaji" value="se"/>
+          <localProp name="ipa" value="se"/>
+          <localProp name="strokes" value="3"/>
+          <mapping type="standard">せ</mapping>
+        </char>
+        <char xml:id="hiragana_so">
+          <unicodeProp name="Name" value="HIRAGANA LETTER SO"/>
+          <localProp name="romaji" value="so"/>
+          <localProp name="ipa" value="so"/>
+          <localProp name="strokes" value="1"/>
+          <mapping type="standard">そ</mapping>
+        </char>
+        <char xml:id="hiragana_ta">
+          <unicodeProp name="Name" value="HIRAGANA LETTER TA"/>
+          <localProp name="romaji" value="ta"/>
+          <localProp name="ipa" value="ta"/>
+          <localProp name="strokes" value="4"/>
+          <mapping type="standard">た</mapping>
+        </char>
+        <char xml:id="hiragana_chi">
+          <unicodeProp name="Name" value="HIRAGANA LETTER TI"/>
+          <localProp name="romaji" value="chi"/>
+          <localProp name="ipa" value="tɕi"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">ち</mapping>
+        </char>
+        <char xml:id="hiragana_tsu">
+          <unicodeProp name="Name" value="HIRAGANA LETTER TU"/>
+          <localProp name="romaji" value="tsu"/>
+          <localProp name="ipa" value="tsɯ"/>
+          <localProp name="strokes" value="1"/>
+          <mapping type="standard">つ</mapping>
+        </char>
+        <char xml:id="hiragana_te">
+          <unicodeProp name="Name" value="HIRAGANA LETTER TE"/>
+          <localProp name="romaji" value="te"/>
+          <localProp name="ipa" value="te"/>
+          <localProp name="strokes" value="1"/>
+          <mapping type="standard">て</mapping>
+        </char>
+        <char xml:id="hiragana_to">
+          <unicodeProp name="Name" value="HIRAGANA LETTER TO"/>
+          <localProp name="romaji" value="to"/>
+          <localProp name="ipa" value="to"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">と</mapping>
+        </char>
+        <char xml:id="hiragana_na">
+          <unicodeProp name="Name" value="HIRAGANA LETTER NA"/>
+          <localProp name="romaji" value="na"/>
+          <localProp name="ipa" value="na"/>
+          <localProp name="strokes" value="4"/>
+          <mapping type="standard">な</mapping>
+        </char>
+        <char xml:id="hiragana_ni">
+          <unicodeProp name="Name" value="HIRAGANA LETTER NI"/>
+          <localProp name="romaji" value="ni"/>
+          <localProp name="ipa" value="ɲi"/>
+          <localProp name="strokes" value="3"/>
+          <mapping type="standard">に</mapping>
+        </char>
+        <char xml:id="hiragana_nu">
+          <unicodeProp name="Name" value="HIRAGANA LETTER NU"/>
+          <localProp name="romaji" value="nu"/>
+          <localProp name="ipa" value="nɯ"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">ぬ</mapping>
+        </char>
+        <char xml:id="hiragana_ne">
+          <unicodeProp name="Name" value="HIRAGANA LETTER NE"/>
+          <localProp name="romaji" value="ne"/>
+          <localProp name="ipa" value="ne"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">ね</mapping>
+        </char>
+        <char xml:id="hiragana_no">
+          <unicodeProp name="Name" value="HIRAGANA LETTER NO"/>
+          <localProp name="romaji" value="no"/>
+          <localProp name="ipa" value="no"/>
+          <localProp name="strokes" value="1"/>
+          <mapping type="standard">の</mapping>
+        </char>
+        <char xml:id="hiragana_ha">
+          <unicodeProp name="Name" value="HIRAGANA LETTER HA"/>
+          <localProp name="romaji" value="ha"/>
+          <localProp name="ipa" value="ha"/>
+          <localProp name="strokes" value="3"/>
+          <mapping type="standard">は</mapping>
+        </char>
+        <char xml:id="hiragana_hi">
+          <unicodeProp name="Name" value="HIRAGANA LETTER HI"/>
+          <localProp name="romaji" value="hi"/>
+          <localProp name="ipa" value="çi"/>
+          <localProp name="strokes" value="1"/>
+          <mapping type="standard">ひ</mapping>
+        </char>
+        <char xml:id="hiragana_fu">
+          <unicodeProp name="Name" value="HIRAGANA LETTER HU"/>
+          <localProp name="romaji" value="fu"/>
+          <localProp name="ipa" value="ɸɯ"/>
+          <localProp name="strokes" value="4"/>
+          <mapping type="standard">ふ</mapping>
+        </char>
+        <char xml:id="hiragana_he">
+          <unicodeProp name="Name" value="HIRAGANA LETTER HE"/>
+          <localProp name="romaji" value="he"/>
+          <localProp name="ipa" value="he"/>
+          <localProp name="strokes" value="1"/>
+          <mapping type="standard">へ</mapping>
+        </char>
+        <char xml:id="hiragana_ho">
+          <unicodeProp name="Name" value="HIRAGANA LETTER HO"/>
+          <localProp name="romaji" value="ho"/>
+          <localProp name="ipa" value="ho"/>
+          <localProp name="strokes" value="4"/>
+          <mapping type="standard">ほ</mapping>
+        </char>
+        <char xml:id="hiragana_ma">
+          <unicodeProp name="Name" value="HIRAGANA LETTER MA"/>
+          <localProp name="romaji" value="ma"/>
+          <localProp name="ipa" value="ma"/>
+          <localProp name="strokes" value="3"/>
+          <mapping type="standard">ま</mapping>
+        </char>
+        <char xml:id="hiragana_mi">
+          <unicodeProp name="Name" value="HIRAGANA LETTER MI"/>
+          <localProp name="romaji" value="mi"/>
+          <localProp name="ipa" value="mi"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">み</mapping>
+        </char>
+        <char xml:id="hiragana_mu">
+          <unicodeProp name="Name" value="HIRAGANA LETTER MU"/>
+          <localProp name="romaji" value="mu"/>
+          <localProp name="ipa" value="mɯ"/>
+          <localProp name="strokes" value="3"/>
+          <mapping type="standard">む</mapping>
+        </char>
+        <char xml:id="hiragana_me">
+          <unicodeProp name="Name" value="HIRAGANA LETTER ME"/>
+          <localProp name="romaji" value="me"/>
+          <localProp name="ipa" value="me"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">め</mapping>
+        </char>
+        <char xml:id="hiragana_mo">
+          <unicodeProp name="Name" value="HIRAGANA LETTER MO"/>
+          <localProp name="romaji" value="mo"/>
+          <localProp name="ipa" value="mo"/>
+          <localProp name="strokes" value="3"/>
+          <mapping type="standard">も</mapping>
+        </char>
+        <char xml:id="hiragana_ya">
+          <unicodeProp name="Name" value="HIRAGANA LETTER YA"/>
+          <localProp name="romaji" value="ya"/>
+          <localProp name="ipa" value="ja"/>
+          <localProp name="strokes" value="3"/>
+          <mapping type="standard">や</mapping>
+        </char>
+        <char xml:id="hiragana_yu">
+          <unicodeProp name="Name" value="HIRAGANA LETTER YU"/>
+          <localProp name="romaji" value="yu"/>
+          <localProp name="ipa" value="jɯ"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">ゆ</mapping>
+        </char>
+        <char xml:id="hiragana_yo">
+          <unicodeProp name="Name" value="HIRAGANA LETTER YO"/>
+          <localProp name="romaji" value="yo"/>
+          <localProp name="ipa" value="jo"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">よ</mapping>
+        </char>
+        <char xml:id="hiragana_ra">
+          <unicodeProp name="Name" value="HIRAGANA LETTER RA"/>
+          <localProp name="romaji" value="ra"/>
+          <localProp name="ipa" value="ɾa"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">ら</mapping>
+        </char>
+        <char xml:id="hiragana_ri">
+          <unicodeProp name="Name" value="HIRAGANA LETTER RI"/>
+          <localProp name="romaji" value="ri"/>
+          <localProp name="ipa" value="ɾi"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">り</mapping>
+        </char>
+        <char xml:id="hiragana_ru">
+          <unicodeProp name="Name" value="HIRAGANA LETTER RU"/>
+          <localProp name="romaji" value="ru"/>
+          <localProp name="ipa" value="ɾɯ"/>
+          <localProp name="strokes" value="1"/>
+          <mapping type="standard">る</mapping>
+        </char>
+        <char xml:id="hiragana_re">
+          <unicodeProp name="Name" value="HIRAGANA LETTER RE"/>
+          <localProp name="romaji" value="re"/>
+          <localProp name="ipa" value="ɾe"/>
+          <localProp name="strokes" value="1"/>
+          <mapping type="standard">れ</mapping>
+        </char>
+        <char xml:id="hiragana_ro">
+          <unicodeProp name="Name" value="HIRAGANA LETTER RO"/>
+          <localProp name="romaji" value="ro"/>
+          <localProp name="ipa" value="ɾo"/>
+          <localProp name="strokes" value="1"/>
+          <mapping type="standard">ろ</mapping>
+        </char>
+        <char xml:id="hiragana_wa">
+          <unicodeProp name="Name" value="HIRAGANA LETTER WA"/>
+          <localProp name="romaji" value="wa"/>
+          <localProp name="ipa" value="wa"/>
+          <localProp name="strokes" value="2"/>
+          <mapping type="standard">わ</mapping>
+        </char>
+        <char xml:id="hiragana_wo">
+          <unicodeProp name="Name" value="HIRAGANA LETTER WO"/>
+          <localProp name="romaji" value="wo"/>
+          <localProp name="ipa" value="o"/>
+          <localProp name="strokes" value="3"/>
+          <mapping type="standard">を</mapping>
+        </char>
+        <char xml:id="hiragana_n">
+          <unicodeProp name="Name" value="HIRAGANA LETTER N"/>
+          <localProp name="romaji" value="n"/>
+          <localProp name="ipa" value="ɴ"/>
+          <localProp name="strokes" value="1"/>
+          <mapping type="standard">ん</mapping>
+        </char>
+      </charDecl>
+    </encodingDesc>
   </teiHeader>
   <text>
     <body>
-      <entry>
-        <char xml:id="hiragana_a">
-          <charName>HIRAGANA LETTER A</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>a</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>ah</value>
-          </charProp>
-        </char>
-        <char xml:id="hiragana_i">
-          <charName>HIRAGANA LETTER I</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>i</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>ee</value>
-          </charProp>
-        </char>
-        <char xml:id="hiragana_u">
-          <charName>HIRAGANA LETTER U</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>u</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>oo</value>
-          </charProp>
-        </char>
-        <char xml:id="hiragana_e">
-          <charName>HIRAGANA LETTER E</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>e</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>eh</value>
-          </charProp>
-        </char>
-        <char xml:id="hiragana_o">
-          <charName>HIRAGANA LETTER O</charName>
-          <charProp>
-            <localName>romaji</localName>
-            <value>o</value>
-          </charProp>
-          <charProp>
-            <localName>pronunciation</localName>
-            <value>oh</value>
-          </charProp>
-        </char>
-      </entry>
+      <div type="gojuon">
+        <head>Hiragana: tabella gojūon</head>
+        <list>
+          <item><g ref="#hiragana_a">あ</g> <ref target="../hiragana/a.html">a</ref></item>
+          <item><g ref="#hiragana_i">い</g> <ref target="../hiragana/i.html">i</ref></item>
+          <item><g ref="#hiragana_u">う</g> <ref target="../hiragana/u.html">u</ref></item>
+          <item><g ref="#hiragana_e">え</g> <ref target="../hiragana/e.html">e</ref></item>
+          <item><g ref="#hiragana_o">お</g> <ref target="../hiragana/o.html">o</ref></item>
+          <item><g ref="#hiragana_ka">か</g> <ref target="../hiragana/ka.html">ka</ref></item>
+          <item><g ref="#hiragana_ki">き</g> <ref target="../hiragana/ki.html">ki</ref></item>
+          <item><g ref="#hiragana_ku">く</g> <ref target="../hiragana/ku.html">ku</ref></item>
+          <item><g ref="#hiragana_ke">け</g> <ref target="../hiragana/ke.html">ke</ref></item>
+          <item><g ref="#hiragana_ko">こ</g> <ref target="../hiragana/ko.html">ko</ref></item>
+          <item><g ref="#hiragana_sa">さ</g> <ref target="../hiragana/sa.html">sa</ref></item>
+          <item><g ref="#hiragana_shi">し</g> <ref target="../hiragana/shi.html">shi</ref></item>
+          <item><g ref="#hiragana_su">す</g> <ref target="../hiragana/su.html">su</ref></item>
+          <item><g ref="#hiragana_se">せ</g> <ref target="../hiragana/se.html">se</ref></item>
+          <item><g ref="#hiragana_so">そ</g> <ref target="../hiragana/so.html">so</ref></item>
+          <item><g ref="#hiragana_ta">た</g> <ref target="../hiragana/ta.html">ta</ref></item>
+          <item><g ref="#hiragana_chi">ち</g> <ref target="../hiragana/chi.html">chi</ref></item>
+          <item><g ref="#hiragana_tsu">つ</g> <ref target="../hiragana/tsu.html">tsu</ref></item>
+          <item><g ref="#hiragana_te">て</g> <ref target="../hiragana/te.html">te</ref></item>
+          <item><g ref="#hiragana_to">と</g> <ref target="../hiragana/to.html">to</ref></item>
+          <item><g ref="#hiragana_na">な</g> <ref target="../hiragana/na.html">na</ref></item>
+          <item><g ref="#hiragana_ni">に</g> <ref target="../hiragana/ni.html">ni</ref></item>
+          <item><g ref="#hiragana_nu">ぬ</g> <ref target="../hiragana/nu.html">nu</ref></item>
+          <item><g ref="#hiragana_ne">ね</g> <ref target="../hiragana/ne.html">ne</ref></item>
+          <item><g ref="#hiragana_no">の</g> <ref target="../hiragana/no.html">no</ref></item>
+          <item><g ref="#hiragana_ha">は</g> <ref target="../hiragana/ha.html">ha</ref></item>
+          <item><g ref="#hiragana_hi">ひ</g> <ref target="../hiragana/hi.html">hi</ref></item>
+          <item><g ref="#hiragana_fu">ふ</g> <ref target="../hiragana/fu.html">fu</ref></item>
+          <item><g ref="#hiragana_he">へ</g> <ref target="../hiragana/he.html">he</ref></item>
+          <item><g ref="#hiragana_ho">ほ</g> <ref target="../hiragana/ho.html">ho</ref></item>
+          <item><g ref="#hiragana_ma">ま</g> <ref target="../hiragana/ma.html">ma</ref></item>
+          <item><g ref="#hiragana_mi">み</g> <ref target="../hiragana/mi.html">mi</ref></item>
+          <item><g ref="#hiragana_mu">む</g> <ref target="../hiragana/mu.html">mu</ref></item>
+          <item><g ref="#hiragana_me">め</g> <ref target="../hiragana/me.html">me</ref></item>
+          <item><g ref="#hiragana_mo">も</g> <ref target="../hiragana/mo.html">mo</ref></item>
+          <item><g ref="#hiragana_ya">や</g> <ref target="../hiragana/ya.html">ya</ref></item>
+          <item><g ref="#hiragana_yu">ゆ</g> <ref target="../hiragana/yu.html">yu</ref></item>
+          <item><g ref="#hiragana_yo">よ</g> <ref target="../hiragana/yo.html">yo</ref></item>
+          <item><g ref="#hiragana_ra">ら</g> <ref target="../hiragana/ra.html">ra</ref></item>
+          <item><g ref="#hiragana_ri">り</g> <ref target="../hiragana/ri.html">ri</ref></item>
+          <item><g ref="#hiragana_ru">る</g> <ref target="../hiragana/ru.html">ru</ref></item>
+          <item><g ref="#hiragana_re">れ</g> <ref target="../hiragana/re.html">re</ref></item>
+          <item><g ref="#hiragana_ro">ろ</g> <ref target="../hiragana/ro.html">ro</ref></item>
+          <item><g ref="#hiragana_wa">わ</g> <ref target="../hiragana/wa.html">wa</ref></item>
+          <item><g ref="#hiragana_wo">を</g> <ref target="../hiragana/wo.html">wo</ref></item>
+          <item><g ref="#hiragana_n">ん</g> <ref target="../hiragana/n.html">n</ref></item>
+        </list>
+      </div>
     </body>
   </text>
 </TEI>
