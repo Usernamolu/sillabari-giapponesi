@@ -179,7 +179,10 @@ footer a:hover {
 
 .credits-links {
     margin-top: 2rem;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .credit-link {
@@ -201,7 +204,8 @@ footer a:hover {
 
 
 
-.back-btn {
+.back-btn,
+.char-nav a {
     padding: 0.6rem 1.5rem;
     background: rgba(255, 255, 255, 0.2);
     color: white;
@@ -212,7 +216,8 @@ footer a:hover {
     font-weight: 500;
 }
 
-.back-btn:hover {
+.back-btn:hover,
+.char-nav a:hover {
     background: white;
     color: var(--red-jp);
 }

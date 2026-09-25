@@ -32,6 +32,16 @@
     z-index: 100;
 }
 
+.char-nav {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.char-nav span {
+    font-family: var(--font-kana);
+    font-weight: 600;
+}
+
 .char-content {
     max-width: 1200px;
     margin: 0 auto;
