@@ -15,7 +15,7 @@ def test_site_integrity():
         
         # 1. Title verification
         title = page.title()
-        assert "Alfabeto Giapponese" in title
+        assert "Sillabari Giapponesi" in title
         print(f"[OK] Title check passed")
 
         # 2. Section verification
