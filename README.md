@@ -11,7 +11,7 @@ Questo progetto è in divenire.
 La piattaforma offre attualmente:
 - Tabelle `gojuon` esplorabili in homepage sia per Hiragana che Katakana.
 - Pagine didattiche per l'Hiragana complete (46/46 caratteri base).
-- Pagine Katakana complete in via di popolamento per quanto concerne le lezioni interne.
+- Pagine didattiche per il Katakana complete (46/46 caratteri base).
 - Metadati accademici TEI-XML strutturati disponibili nella cartella `metadata/`.
 - Pagina referenziale `metodologia.html` inclusa.
 
@@ -77,7 +77,7 @@ sillabari-giapponesi/
   hiragana/
     ...46 pagine carattere...
   katakana/
-    ...46 pagine carattere (placeholder)...
+    ...46 pagine carattere...
   metadata/
     hiragana.tei.xml
     katakana.tei.xml
